@@ -1,0 +1,9 @@
+<p class="meta">
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+  · {{ .ReadingTime }} min read
+  {{- with .Params.categories }} ·
+    {{- range $i, $c := . }}{{ if $i }}, {{ end }}
+      <a href="{{ printf "/categories/%s/" ($c | urlize) | relURL }}">{{ $c }}</a>
+    {{- end }}
+  {{- end }}
+</p>

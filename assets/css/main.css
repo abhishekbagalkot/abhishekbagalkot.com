@@ -142,3 +142,11 @@ pre code { font-size: 1em; }
 }
 .category-nav a:hover { color: var(--accent); }
 .empty-note { margin-top: 1.5rem; }
+
+.meta a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: .22em;
+  text-decoration-thickness: 1px;
+}
+.meta a:hover { color: var(--accent); }

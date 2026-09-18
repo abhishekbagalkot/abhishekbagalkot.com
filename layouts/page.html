@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>
   <h1>{{ .Title }}</h1>
-  {{ if and .Date (eq .Section "posts") }}<p class="meta">{{ .Date.Format "2 January 2006" }} · {{ .ReadingTime }} min read</p>{{ end }}
+  {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
   {{ .Content }}
 </article>
 {{ end }}
