@@ -22,6 +22,7 @@
 </header>
 <main>
 {{ block "main" . }}{{ end }}
+{{ partial "subscribe.html" . }}
 </main>
 <footer class="site-footer">
   <p>© {{ now.Year }} {{ site.Title }}</p>

@@ -4,5 +4,4 @@
   {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
   {{ .Content }}
 </article>
-{{ if eq .Section "posts" }}{{ partial "subscribe.html" . }}{{ end }}
 {{ end }}
