@@ -195,3 +195,6 @@ pre code { font-size: 1em; }
 .subscribe-credit { margin: .7rem 0 0; font-size: .75rem; color: var(--meta); }
 .subscribe-credit a { color: inherit; text-decoration: underline; text-underline-offset: .22em; }
 .subscribe-credit a:hover { color: var(--accent); }
+
+.subscribe-done { margin: 0; font-size: .95rem; }
+.subscribe-form button[disabled] { opacity: .6; cursor: default; }
