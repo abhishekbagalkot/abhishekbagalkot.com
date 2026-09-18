@@ -1,0 +1,19 @@
+baseURL = "https://abhishekbagalkot.com/"
+languageCode = "en-us"
+title = "Abhishek Bagalkot"
+enableRobotsTXT = true
+
+[params]
+  description = "Writing on technology, operations and business."
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+  name = "Writing"
+  url = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
