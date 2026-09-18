@@ -12,7 +12,10 @@
 </head>
 <body>
 <header class="site-header">
-  <p class="masthead">{{ site.Title }}</p>
+  <div class="masthead-row">
+    <p class="masthead">{{ site.Title }}</p>
+    <p class="social">{{ partial "social.html" . }}</p>
+  </div>
   <nav>
     {{ $cur := .RelPermalink }}
     {{ range site.Menus.main }}

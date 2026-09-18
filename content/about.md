@@ -4,8 +4,6 @@ title: "About"
 
 {{< portrait >}}
 
-<p class="social">{{< social >}}</p>
-
 I work at the intersection of technology, operations and business — mostly on
 the unglamorous middle, where a working model meets a working day.
 
