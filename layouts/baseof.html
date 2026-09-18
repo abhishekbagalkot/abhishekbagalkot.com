@@ -33,5 +33,6 @@
 {{ with resources.Get "js/subscribe.js" | minify | fingerprint }}
 <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
 {{ end }}
+{{ partial "analytics.html" . }}
 </body>
 </html>
