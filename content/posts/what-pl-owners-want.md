@@ -2,7 +2,7 @@
 title: "What P&L owners actually want from optimisation"
 date: 2026-07-02
 summary: "They are not buying a percentage. They are buying the ability to explain a number to someone above them — which is a different product than the one most vendors pitch."
-categories: ["Tech"]
+categories: ["Technology"]
 ---
 
 Vendors pitch optimisation as a savings percentage. P&L owners don't buy

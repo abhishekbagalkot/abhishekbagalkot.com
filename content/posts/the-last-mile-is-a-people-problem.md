@@ -2,7 +2,7 @@
 title: "The last mile is a people problem"
 date: 2026-08-05
 summary: "Most last-mile inefficiency isn't in the routing. It's in the twenty minutes before the van leaves and the things drivers know that the system doesn't."
-categories: ["Tech"]
+categories: ["Technology"]
 ---
 
 If you instrument a last-mile operation properly, the distribution of lost time

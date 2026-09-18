@@ -4,7 +4,7 @@ date: 2026-08-24
 draft: false
 summary: "Before any computer vision project, write down what the camera physically cannot observe — and check whether the thing you care about is on that list. It often is."
 featured: true
-categories: ["Tech"]
+categories: ["Technology"]
 ---
 
 A useful discipline before any computer vision project: write down what the

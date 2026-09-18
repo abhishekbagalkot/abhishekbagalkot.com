@@ -7,7 +7,7 @@ enableRobotsTXT = true
   category = "categories"
 
 [params]
-  categoryNav = ["India", "Tech"]
+  categoryNav = ["India", "Technology"]
   description = "Writing on technology, operations and business."
 
 [markup.goldmark.renderer]

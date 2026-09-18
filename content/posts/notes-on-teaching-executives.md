@@ -2,7 +2,7 @@
 title: "Notes on teaching executives"
 date: 2026-05-28
 summary: "Senior people don't need the concept explained. They need permission to admit which part they never understood, and a worked example from their own P&L."
-categories: ["Tech"]
+categories: ["Technology"]
 ---
 
 Some observations from running sessions with senior operators, mostly things I

@@ -4,7 +4,7 @@ date: 2026-09-12
 draft: false
 summary: "The pilot saves eight percent. Three weeks after go-live the dispatchers are overriding most of the plan. That override isn't resistance — it's a constraint nobody wrote down."
 featured: true
-categories: ["Tech"]
+categories: ["Technology"]
 ---
 
 Almost every stalled route optimisation project I've seen failed at the same
