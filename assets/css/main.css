@@ -162,8 +162,7 @@ pre code { font-size: 1em; }
   padding-top: 1.75rem;
   border-top: 1px solid var(--rule);
 }
-.subscribe h2 { font-size: 1.15rem; margin: 0 0 .3rem; font-weight: 600; }
-.subscribe-note { margin: 0 0 1rem; font-size: .95rem; }
+.subscribe h2 { font-size: 1.15rem; margin: 0 0 .9rem; font-weight: 600; }
 .subscribe-form { display: flex; flex-wrap: wrap; gap: .6rem; }
 .subscribe-form input[type="email"] {
   flex: 1 1 15rem;
@@ -192,9 +191,6 @@ pre code { font-size: 1em; }
   cursor: pointer;
 }
 .subscribe-form button:hover { opacity: .88; }
-.subscribe-credit { margin: .7rem 0 0; font-size: .75rem; color: var(--meta); }
-.subscribe-credit a { color: inherit; text-decoration: underline; text-underline-offset: .22em; }
-.subscribe-credit a:hover { color: var(--accent); }
 
 .subscribe-done { margin: 0; font-size: .95rem; }
 .subscribe-form button[disabled] { opacity: .6; cursor: default; }

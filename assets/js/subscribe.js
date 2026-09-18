@@ -26,16 +26,11 @@
 
     frame.addEventListener('load', function () {
       if (!sent) return;                       // ignore the initial blank load
-      var box = form.closest('.subscribe');
       var note = document.createElement('p');
       note.className = 'subscribe-done';
       note.setAttribute('role', 'status');
       note.textContent = 'Almost there — check your inbox and click the confirmation link.';
       form.replaceWith(note);
-      if (box) {
-        var blurb = box.querySelector('.subscribe-note');
-        if (blurb) blurb.remove();
-      }
     });
   });
 })();
