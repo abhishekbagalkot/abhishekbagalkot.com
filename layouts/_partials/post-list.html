@@ -1,0 +1,11 @@
+<ul class="post-list">
+{{ range . }}
+  <li>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time> · {{ .ReadingTime }} min read</p>
+    <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 230 }}{{ end }}</p>
+  </li>
+{{ else }}
+  <li><p>Nothing published yet.</p></li>
+{{ end }}
+</ul>

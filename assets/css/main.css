@@ -37,10 +37,14 @@ h1 { font-size: 1.9rem; line-height: 1.2; margin: 1.5rem 0 .5rem; }
 h2 { font-size: 1.3rem; margin-top: 2.25rem; }
 .meta { color: var(--muted); font-size: .9rem; margin-top: 0; }
 
-ul.post-list { list-style: none; padding: 0; }
-ul.post-list li { display: flex; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--rule); }
-ul.post-list a { text-decoration: none; }
-ul.post-list time { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+ul.post-list { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+ul.post-list > li { padding: 0 0 1.4rem; margin-bottom: 1.4rem; border-bottom: 1px solid var(--rule); }
+ul.post-list > li:last-child { border-bottom: 0; }
+ul.post-list h3 { font-size: 1.15rem; line-height: 1.3; margin: 0 0 .15rem; font-weight: 600; }
+ul.post-list h3 a { text-decoration: none; color: var(--fg); }
+ul.post-list h3 a:hover { color: var(--accent); }
+ul.post-list .meta { font-size: .8rem; margin: 0 0 .4rem; }
+ul.post-list .excerpt { margin: 0; color: var(--muted); font-size: .95rem; line-height: 1.55; }
 
 blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid var(--rule); color: var(--muted); }
 pre { background: rgba(127,127,127,.09); padding: 1rem; overflow-x: auto; border-radius: 6px; font-size: .9rem; }
@@ -51,7 +55,6 @@ pre code { font-size: 1em; }
   float: right;
   width: 6rem;                       /* source is only 200px; keeps it sharp on retina */
   margin: .4rem 0 1rem 1.5rem;
-  border-radius: 50%;
 }
 @media (max-width: 34rem) {
   .portrait { float: none; display: block; width: 6rem; margin: 0 0 1.25rem; }

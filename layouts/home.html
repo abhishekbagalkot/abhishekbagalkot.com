@@ -4,15 +4,6 @@
 </article>
 <section>
   <h2>Recent writings</h2>
-  <ul class="post-list">
-  {{ range first 10 (where site.RegularPages "Section" "posts") }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
-    </li>
-  {{ else }}
-    <li>Nothing published yet.</li>
-  {{ end }}
-  </ul>
+  {{ partial "post-list.html" (first 5 (where site.RegularPages "Section" "posts")) }}
 </section>
 {{ end }}

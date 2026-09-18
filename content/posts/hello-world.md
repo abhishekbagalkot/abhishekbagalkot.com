@@ -2,6 +2,7 @@
 title: "Hello, world"
 date: 2026-09-18
 draft: false
+summary: "The first post — a check that the whole pipeline works: Markdown in, Hugo build, GitHub Actions deploy, live site out."
 ---
 
 This is the sample page — proof that the pipeline works end to end: Hugo builds
