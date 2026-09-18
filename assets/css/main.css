@@ -64,3 +64,31 @@ pre code { font-size: 1em; }
 }
 
 .site-footer { margin-top: 4rem; padding-bottom: 3rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
+
+.section-label {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--muted);
+  font-weight: 600;
+  margin: 2.75rem 0 .25rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.site-header + main > section:first-child .section-label { margin-top: 1rem; }
+
+ul.post-list.compact > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .5rem 0;
+  margin: 0;
+  border-bottom: 1px solid var(--rule);
+}
+ul.post-list.compact > li:last-child { border-bottom: 0; }
+ul.post-list.compact a { text-decoration: none; color: var(--fg); }
+ul.post-list.compact a:hover { color: var(--accent); }
+ul.post-list.compact time { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+.more { margin: 1rem 0 0; font-size: .9rem; }
+.more a { text-decoration: none; }

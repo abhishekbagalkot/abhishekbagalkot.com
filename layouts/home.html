@@ -1,9 +1,27 @@
 {{ define "main" }}
-<article class="intro">
-  {{ .Content }}
-</article>
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $featured := first 3 (where $posts "Params.featured" true).ByDate.Reverse }}
+{{ if not $featured }}
+  {{ $featured = first 3 $posts.ByDate.Reverse }}
+{{ end }}
+
 <section>
-  <h2>Recent writings</h2>
-  {{ partial "post-list.html" (first 5 (where site.RegularPages "Section" "posts")) }}
+  <h2 class="section-label">Featured</h2>
+  {{ partial "post-list.html" $featured }}
 </section>
+
+{{ $ids := slice }}
+{{ range $featured }}{{ $ids = $ids | append .RelPermalink }}{{ end }}
+{{ $recent := slice }}
+{{ range $posts.ByDate.Reverse }}
+  {{ if not (in $ids .RelPermalink) }}{{ $recent = $recent | append . }}{{ end }}
+{{ end }}
+
+{{ with first 6 $recent }}
+<section>
+  <h2 class="section-label">Recent</h2>
+  {{ partial "post-list-compact.html" . }}
+  <p class="more"><a href="{{ "/posts/" | relURL }}">All writings →</a></p>
+</section>
+{{ end }}
 {{ end }}
