@@ -120,3 +120,25 @@ pre code { font-size: 1em; }
 }
 
 .site-footer { margin-top: 4.5rem; padding-bottom: 3rem; border-top: 1px solid var(--rule); font-size: .82rem; }
+
+/* ---- category filter bar ---- */
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: .6rem 0 2rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--rule);
+}
+.category-nav a {
+  color: var(--fg);
+  text-decoration: none;
+  font-size: .9rem;
+}
+.category-nav a.current {
+  text-decoration: underline;
+  text-underline-offset: .3em;
+  text-decoration-thickness: 1px;
+}
+.category-nav a:hover { color: var(--accent); }
+.empty-note { margin-top: 1.5rem; }

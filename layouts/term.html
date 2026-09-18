@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ partial "category-nav.html" . }}
+{{ .Content }}
+{{ with .Pages.ByDate.Reverse }}
+  {{ partial "post-list.html" . }}
+{{ else }}
+  <p class="empty-note">Nothing filed under {{ .Title }} yet.</p>
+{{ end }}
+{{ end }}

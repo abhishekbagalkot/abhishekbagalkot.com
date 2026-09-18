@@ -2,6 +2,7 @@
 title: "Counting things is not understanding them"
 date: 2026-06-14
 summary: "A vision system that counts correctly and explains nothing is a more expensive clipboard. The interesting output isn't the count — it's the variance nobody could see before."
+categories: ["Tech"]
 ---
 
 The most common computer vision deployment I see is a counter. Units through a

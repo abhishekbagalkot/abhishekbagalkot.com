@@ -1,0 +1,8 @@
+{{ $cur := .RelPermalink }}
+<nav class="category-nav" aria-label="Categories">
+  <a href="{{ "/posts/" | relURL }}"{{ if eq $cur ("/posts/" | relURL) }} class="current" aria-current="page"{{ end }}>All</a>
+  {{ range site.Params.categoryNav }}
+    {{ $url := printf "/categories/%s/" (. | urlize) | relURL }}
+    <a href="{{ $url }}"{{ if eq $cur $url }} class="current" aria-current="page"{{ end }}>{{ . }}</a>
+  {{ end }}
+</nav>

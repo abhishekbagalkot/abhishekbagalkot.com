@@ -1,5 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+{{ partial "category-nav.html" . }}
 {{ .Content }}
 {{ partial "post-list.html" .Pages.ByDate.Reverse }}
 {{ end }}

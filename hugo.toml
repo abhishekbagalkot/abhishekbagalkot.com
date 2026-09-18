@@ -3,7 +3,11 @@ languageCode = "en-us"
 title = "Abhishek Bagalkot"
 enableRobotsTXT = true
 
+[taxonomies]
+  category = "categories"
+
 [params]
+  categoryNav = ["India", "Tech"]
   description = "Writing on technology, operations and business."
 
 [markup.goldmark.renderer]

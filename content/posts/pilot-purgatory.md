@@ -3,6 +3,7 @@ title: "Pilot purgatory"
 date: 2026-07-18
 featured: true
 summary: "Enterprises don't struggle to start AI pilots. They struggle to end them. The pilot that neither fails nor scales is the default outcome, and it's a structural problem, not a technical one."
+categories: ["Tech"]
 ---
 
 The failure mode in enterprise AI isn't the pilot that doesn't work. It's the
