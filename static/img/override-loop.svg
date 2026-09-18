@@ -41,5 +41,5 @@
     <polygon class="head" points="104,104 99.5,112 108.5,112"/>
   </g>
 
-  <text class="note" x="360" y="204" text-anchor="middle">Each override is a labelled example of something the model was never told</text>
+  <text class="note" x="360" y="204" text-anchor="middle">Each override is a labelled example of something the model was never told — free specification</text>
 </svg>
