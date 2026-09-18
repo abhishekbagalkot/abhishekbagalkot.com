@@ -33,6 +33,10 @@ something more specific: the dispatcher knows something the model doesn't.
 None of this is in the data. All of it is in someone's head. When the plan
 violates it, the override isn't sabotage — it's a correction.
 
+{{< figure src="img/override-loop.svg"
+    alt="The plan leads to the override, which reveals a constraint nobody wrote down, which feeds back into the plan."
+    caption="The loop most projects treat as noise. Every override points back at something the plan was never told." >}}
+
 > The useful question after a pilot isn't "how much did we save?" It's "which
 > constraints did we discover we hadn't written down?"
 

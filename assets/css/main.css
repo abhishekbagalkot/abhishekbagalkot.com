@@ -210,3 +210,20 @@ pre code { font-size: 1em; }
 }
 .social a:hover { color: var(--accent); }
 .social svg { width: 1.05rem; height: 1.05rem; display: block; }
+
+/* ---- figures in articles ---- */
+article img { max-width: 100%; height: auto; }
+figure {
+  margin: 2rem 0;
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figcaption {
+  margin-top: .6rem;
+  font-size: .82rem;
+  color: var(--meta);
+  line-height: 1.5;
+}
