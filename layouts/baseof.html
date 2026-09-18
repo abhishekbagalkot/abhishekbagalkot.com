@@ -25,6 +25,7 @@
 {{ partial "subscribe.html" . }}
 </main>
 <footer class="site-footer">
+  <p class="social">{{ partial "social.html" . }}</p>
   <p>© {{ now.Year }} {{ site.Title }}</p>
 </footer>
 {{ with resources.Get "js/subscribe.js" | minify | fingerprint }}

@@ -1,0 +1,4 @@
+{{- $out := slice -}}
+{{- with site.Params.linkedin }}{{ $out = $out | append (printf `<a href="%s" rel="me">LinkedIn</a>` .) }}{{ end -}}
+{{- with site.Params.x }}{{ $out = $out | append (printf `<a href="%s" rel="me">X</a>` .) }}{{ end -}}
+{{ delimit $out " · " | safeHTML }}

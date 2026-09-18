@@ -4,6 +4,8 @@ title: "About"
 
 {{< portrait >}}
 
+<p class="social">{{< social >}}</p>
+
 I work at the intersection of technology, operations and business — mostly on
 the unglamorous middle, where a working model meets a working day.
 
@@ -24,6 +26,3 @@ and it's most of what I'll write about here.
 I'm based in Bangalore and work through Akrity. I'm also building something
 early around research and executive education, which I'll say more about when
 there's more to say.
-
-You can find me on [GitHub](https://github.com/abhishekbagalkot) and
-[X](https://x.com/abhibagalkot).
