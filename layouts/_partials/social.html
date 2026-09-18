@@ -1,4 +1,13 @@
-{{- $out := slice -}}
-{{- with site.Params.linkedin }}{{ $out = $out | append (printf `<a href="%s" rel="me">LinkedIn</a>` .) }}{{ end -}}
-{{- with site.Params.x }}{{ $out = $out | append (printf `<a href="%s" rel="me">X</a>` .) }}{{ end -}}
-{{ delimit $out " · " | safeHTML }}
+{{- $links := slice
+  (dict "url" site.Params.linkedin "icon" "linkedin" "name" "LinkedIn")
+  (dict "url" site.Params.x        "icon" "x"        "name" "X")
+-}}
+<span class="social">
+{{- range $l := $links }}
+  {{- if $l.url }}
+    {{- with resources.Get (printf "icons/%s.svg" $l.icon) }}
+  <a href="{{ $l.url }}" rel="me noopener" target="_blank" aria-label="{{ $l.name }}" title="{{ $l.name }}">{{ .Content | safeHTML }}</a>
+    {{- end }}
+  {{- end }}
+{{- end }}
+</span>

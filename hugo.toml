@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 [params]
   x = "https://x.com/abhibagalkot"
-  # linkedin = "https://www.linkedin.com/in/…"   # add once confirmed
+  linkedin = "https://www.linkedin.com/in/abhishekbagalkot/"
   categoryNav = ["India", "Technology"]
   description = "Writing on technology, operations and business."
 

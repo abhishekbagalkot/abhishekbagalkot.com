@@ -14,7 +14,7 @@
 <header class="site-header">
   <div class="masthead-row">
     <p class="masthead">{{ site.Title }}</p>
-    <p class="social">{{ partial "social.html" . }}</p>
+    {{ partial "social.html" . }}
   </div>
   <nav>
     {{ $cur := .RelPermalink }}
@@ -28,7 +28,6 @@
 {{ partial "subscribe.html" . }}
 </main>
 <footer class="site-footer">
-  <p class="social">{{ partial "social.html" . }}</p>
   <p>© {{ now.Year }} {{ site.Title }}</p>
 </footer>
 {{ with resources.Get "js/subscribe.js" | minify | fingerprint }}
