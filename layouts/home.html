@@ -5,10 +5,28 @@
   {{ $featured = first 3 $posts.ByDate.Reverse }}
 {{ end }}
 
-<section>
-  <h2 class="section-label">Featured</h2>
-  {{ partial "post-list.html" $featured }}
+{{ with $featured }}
+<section class="featured">
+  {{ $lead := index . 0 }}
+  <article class="lead">
+    <h2><a href="{{ $lead.RelPermalink }}">{{ $lead.Title }}</a></h2>
+    <p class="excerpt">{{ with $lead.Params.summary }}{{ . }}{{ else }}{{ $lead.Summary | plainify | truncate 260 }}{{ end }}</p>
+    <p class="meta"><time datetime="{{ $lead.Date.Format "2006-01-02" }}">{{ $lead.Date.Format "2 January 2006" }}</time> · {{ $lead.ReadingTime }} min read</p>
+  </article>
+
+  {{ with after 1 . }}
+  <div class="secondary">
+    {{ range . }}
+    <article>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 170 }}{{ end }}</p>
+      <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time> · {{ .ReadingTime }} min read</p>
+    </article>
+    {{ end }}
+  </div>
+  {{ end }}
 </section>
+{{ end }}
 
 {{ $ids := slice }}
 {{ range $featured }}{{ $ids = $ids | append .RelPermalink }}{{ end }}
@@ -18,7 +36,7 @@
 {{ end }}
 
 {{ with first 6 $recent }}
-<section>
+<section class="recent">
   <h2 class="section-label">Recent</h2>
   {{ partial "post-list-compact.html" . }}
   <p class="more"><a href="{{ "/posts/" | relURL }}">All writings →</a></p>
