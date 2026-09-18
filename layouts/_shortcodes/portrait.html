@@ -1,0 +1,6 @@
+{{ $src := "img/abhishek.jpg" }}
+{{ if (resources.Get $src) }}
+<img class="portrait" src="{{ $src | relURL }}" alt="Abhishek Bagalkot" width="320" height="320">
+{{ else if (fileExists (printf "/static/%s" $src)) }}
+<img class="portrait" src="{{ $src | relURL }}" alt="Abhishek Bagalkot" width="320" height="320">
+{{ end }}

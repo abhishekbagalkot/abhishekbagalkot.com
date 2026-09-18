@@ -2,9 +2,9 @@
 <article class="intro">
   {{ .Content }}
 </article>
-<section class="post-list">
-  <h2>Recent writing</h2>
-  <ul>
+<section>
+  <h2>Recent writings</h2>
+  <ul class="post-list">
   {{ range first 10 (where site.RegularPages "Section" "posts") }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>

@@ -9,9 +9,12 @@
 </head>
 <body>
 <header class="site-header">
-  <a class="site-title" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+  <p class="masthead">{{ site.Title }}</p>
   <nav>
-    {{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+    {{ $cur := .RelPermalink }}
+    {{ range site.Menus.main }}
+      <a href="{{ .URL | relURL }}"{{ if eq $cur (.URL | relURL) }} class="current" aria-current="page"{{ end }}>{{ .Name }}</a>
+    {{ end }}
   </nav>
 </header>
 <main>

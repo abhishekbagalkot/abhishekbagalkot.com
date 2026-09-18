@@ -9,33 +9,52 @@
   :root { --bg:#161513; --fg:#eceae5; --muted:#9b968c; --accent:#d99b6c; --rule:#2e2c28; }
 }
 * { box-sizing: border-box; }
+html { font-size: 120%; }            /* everything scales 20% from here */
 body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font: 17px/1.65 Charter, "Iowan Old Style", Georgia, serif;
+  font: 1.0625rem/1.65 Charter, "Iowan Old Style", Georgia, serif;
   -webkit-font-smoothing: antialiased;
 }
 main, .site-header, .site-footer { max-width: 40rem; margin: 0 auto; padding: 0 1.25rem; }
-.site-header {
-  display: flex; flex-wrap: wrap; gap: .75rem 1.25rem;
-  align-items: baseline; justify-content: space-between;
-  padding-top: 2.5rem; padding-bottom: 1.5rem;
+
+.site-header { padding-top: 2.75rem; padding-bottom: 1.75rem; }
+.masthead {
+  margin: 0 0 .5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
 }
-.site-title { font-size: 1.15rem; font-weight: 600; text-decoration: none; color: var(--fg); }
-nav a { margin-left: 1rem; color: var(--muted); text-decoration: none; font-size: .95rem; }
-nav a:first-child { margin-left: 0; }
+nav { display: flex; flex-wrap: wrap; gap: 1.1rem; }
+nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+nav a.current { color: var(--fg); }
 nav a:hover, a:hover { color: var(--accent); }
+
 a { color: var(--accent); }
 h1 { font-size: 1.9rem; line-height: 1.2; margin: 1.5rem 0 .5rem; }
 h2 { font-size: 1.3rem; margin-top: 2.25rem; }
 .meta { color: var(--muted); font-size: .9rem; margin-top: 0; }
-.post-list ul, ul.post-list { list-style: none; padding: 0; }
-.post-list li { display: flex; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--rule); }
-.post-list a { text-decoration: none; }
-.post-list time { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+
+ul.post-list { list-style: none; padding: 0; }
+ul.post-list li { display: flex; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--rule); }
+ul.post-list a { text-decoration: none; }
+ul.post-list time { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+
 blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid var(--rule); color: var(--muted); }
 pre { background: rgba(127,127,127,.09); padding: 1rem; overflow-x: auto; border-radius: 6px; font-size: .9rem; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; }
 pre code { font-size: 1em; }
+
+.portrait {
+  float: right;
+  width: 10rem;
+  margin: .4rem 0 1.25rem 1.5rem;
+  border-radius: 4px;
+}
+@media (max-width: 34rem) {
+  .portrait { float: none; display: block; width: 9rem; margin: 0 0 1.25rem; }
+}
+
 .site-footer { margin-top: 4rem; padding-bottom: 3rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
