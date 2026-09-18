@@ -1,9 +1,5 @@
-<p class="meta">
-  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-  · {{ .ReadingTime }} min read
-  {{- with .Params.categories }} ·
-    {{- range $i, $c := . }}{{ if $i }}, {{ end }}
-      <a href="{{ printf "/categories/%s/" ($c | urlize) | relURL }}">{{ $c }}</a>
-    {{- end }}
-  {{- end }}
-</p>
+{{- $cats := slice -}}
+{{- range .Params.categories -}}
+  {{- $cats = $cats | append (printf `<a href="%s">%s</a>` (printf "/categories/%s/" (. | urlize) | relURL) .) -}}
+{{- end -}}
+<p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time> · {{ .ReadingTime }} min read{{ with $cats }} · {{ delimit . ", " | safeHTML }}{{ end }}</p>
