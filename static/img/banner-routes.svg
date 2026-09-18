@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMid slice"
+     role="img" aria-label="Two routes across a set of stops: the planned sequence and the one that actually ran.">
+  <style>
+    .bg     { fill: #f6f1e7; }
+    .stop   { fill: #f6f1e7; stroke: #1c1b19; stroke-width: 3; }
+    .plan   { fill: none; stroke: #8a4b2a; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+    .actual { fill: none; stroke: #1c1b19; stroke-width: 2.5; stroke-dasharray: 10 9; stroke-linecap: round; opacity: .5; }
+    .key    { fill: #1c1b19; font: 22px Charter, Georgia, serif; opacity: .75; }
+    @media (prefers-color-scheme: dark) {
+      .bg     { fill: #1e1c19; }
+      .stop   { fill: #1e1c19; stroke: #eceae5; }
+      .plan   { stroke: #d99b6c; }
+      .actual { stroke: #eceae5; }
+      .key    { fill: #eceae5; }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="1600" height="420"/>
+
+  <path class="actual" d="M110 300 C 300 322, 420 340, 600 296 S 900 318, 1060 258 S 1320 292, 1490 176"/>
+  <path class="plan"   d="M110 300 L 296 214 L 470 268 L 648 158 L 826 208 L 1004 128 L 1188 198 L 1352 118 L 1490 176"/>
+
+  <g class="stop">
+    <circle cx="110"  cy="300" r="11"/>
+    <circle cx="296"  cy="214" r="9"/>
+    <circle cx="470"  cy="268" r="9"/>
+    <circle cx="648"  cy="158" r="9"/>
+    <circle cx="826"  cy="208" r="9"/>
+    <circle cx="1004" cy="128" r="9"/>
+    <circle cx="1188" cy="198" r="9"/>
+    <circle cx="1352" cy="118" r="9"/>
+    <circle cx="1490" cy="176" r="11"/>
+  </g>
+
+  <g>
+    <line class="plan"   x1="112" y1="372" x2="172" y2="372"/>
+    <text class="key" x="186" y="379">the plan</text>
+    <line class="actual" x1="326" y1="372" x2="386" y2="372"/>
+    <text class="key" x="400" y="379">what ran</text>
+  </g>
+</svg>
