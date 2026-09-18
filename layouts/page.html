@@ -1,9 +1,4 @@
 {{ define "main" }}
-{{ with .Params.banner }}
-<div class="full-bleed banner">
-  <img src="{{ . | relURL }}" alt="{{ $.Params.bannerAlt | default "" }}"{{ if not $.Params.bannerAlt }} aria-hidden="true"{{ end }}>
-</div>
-{{ end }}
 <article>
   <h1>{{ .Title }}</h1>
   {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
