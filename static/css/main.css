@@ -49,12 +49,12 @@ pre code { font-size: 1em; }
 
 .portrait {
   float: right;
-  width: 10rem;
-  margin: .4rem 0 1.25rem 1.5rem;
-  border-radius: 4px;
+  width: 6rem;                       /* source is only 200px; keeps it sharp on retina */
+  margin: .4rem 0 1rem 1.5rem;
+  border-radius: 50%;
 }
 @media (max-width: 34rem) {
-  .portrait { float: none; display: block; width: 9rem; margin: 0 0 1.25rem; }
+  .portrait { float: none; display: block; width: 6rem; margin: 0 0 1.25rem; }
 }
 
 .site-footer { margin-top: 4rem; padding-bottom: 3rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
