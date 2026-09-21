@@ -1,9 +1,9 @@
 ---
 title: "Physics"
 date: 2007-06-18
-draft: true
 summary: "The first thing I ever fell in love with — a question about the inverted image on the retina, and a year when Newton's laws explained everything at once."
 source: "https://theboka.wordpress.com/2007/06/18/physics/"
+categories: ["Stories"]
 ---
 
 The first thing I ever fell in love with was Physics. I was 13 I think. My father used to keep getting transfered from one city to another due to the nature of his job, and I had to jump to and fro across a lot of schools. I remember very clearly. It was my first day in a new school in Calcutta. I remember that a very stout looking, thick spectacled lady walked into the room during the physics class. She kept shouting "Stop fooling around. Stop fooling around" at any one who would try to make mischief. She probably did not notice how much more mischief her "Stop fooling around" caused. She picked up the physics book and asked somebody from the class to read a paragraph from it. Then she asked a question from the same paragraph. She waited for a while looking if anyone could answer that. If nobody was forth coming, she would answer it herself and she would ask somebody else to read the next paragraph. She looked like a very strict and stern lady to me. But I did no understand why the other kids did not think so. They kept giggling and throwing things at each other. "Stop fooling around" she would yell again and get along with her job. Evey now and then somebody would run across from his seat to some other seat. Then she would say "Stop fooling around, Rahul" or "Stop fooling around, Tanushree".

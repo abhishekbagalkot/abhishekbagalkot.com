@@ -1,9 +1,9 @@
 ---
 title: "Rainy Day"
 date: 2007-09-25
-draft: true
 summary: "An evening walk in the rain, a cigarette and a coffee at a pan shop, and a sound from across the crossroad that the evening cannot absorb."
 source: "https://theboka.wordpress.com/2007/09/25/rainy-day/"
+categories: ["Stories"]
 ---
 
 It is eight o clock in the evening. I am walking out of my house. I climb two stories down and step in between the gates of my building. I open my umbrella. It is raining. A pond of water has collected just in front of my house. I step into it. It is a good feeling. The water is cool. Rain drops fall on my umbrella. I like the sound. As the the drops fall on the ground, they shine under the road lights momentarily. Then they disappear. Some drops fall on the ponds formed here and there. They disperse fresh small waves. I am enjoying the rain. I have dropped my disgust of getting wet. It seems less relevant today. And as I walk, enjoy the sound of rain everywhere. On the trees, on the grass and sometimes on my feet.
