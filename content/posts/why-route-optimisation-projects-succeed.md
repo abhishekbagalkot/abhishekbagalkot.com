@@ -4,8 +4,6 @@ date: 2026-09-12
 featured: true
 categories: ["Technology"]
 summary: "The ones that work don't have better solvers. They treat the first quarter as constraint discovery, and they scope against a number someone is already accountable for."
-aliases:
-  - /posts/why-route-optimisation-stalls/
 ---
 
 The route optimisation projects that work don't have better solvers than the
