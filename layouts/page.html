@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  <h1>{{ .Title }}</h1>
+  <h1{{ if ne .Section "posts" }} class="sr-only"{{ end }}>{{ .Title }}</h1>
   {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
   {{ .Content }}
 </article>
