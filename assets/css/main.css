@@ -277,3 +277,12 @@ ul.post-list h3 a:active,
 ul.post-list.compact a:active,
 .more a:active,
 nav a:active { color: var(--accent); }
+
+/* ---- explicit "this goes somewhere" affordance under each summary ---- */
+.read-more { margin: .5rem 0 0; font-size: .85rem; line-height: 1.3; }
+.read-more a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.read-more a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.read-more a:active { opacity: .7; }

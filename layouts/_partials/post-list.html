@@ -4,6 +4,7 @@
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     {{ partial "post-meta.html" . }}
     <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 230 }}{{ end }}</p>
+    {{ partial "read-more.html" . }}
   </li>
 {{ else }}
   <li><p>Nothing published yet.</p></li>
