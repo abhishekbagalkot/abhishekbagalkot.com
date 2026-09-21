@@ -16,6 +16,10 @@ When blue light entered these layers from from the sky, it would skew a little a
 
 That was cool! Light bends so much due to refraction, that it starts moving upwards after it has suffered enough refraction. It never hits the sand at all. So it can't have the color of sand. It still has the color of the sky. Blue. And when such light enters our eyes, we see it as blue light coming from the land. It looks like water. That is a mirage.
 
+{{< figure src="img/mirage-diagram.jpg"
+    alt="Hand-drawn diagram of light refracting through layers of air of decreasing density above hot desert sand."
+    caption="The diagram from the original post." >}}
+
 I was listening intently. And as soon as she finished, I jumped with a question.
 
 "Light only skews away from the normal when it is enters a layer of different optical density. But onces, the light is skewed enough that it is almost horizontal to the ground, it has no differential optical densities to cross. So it should just move horizontal. Why does it move upwards?" I said. Now that was a big sounding question. Immediately the class lost interest. But I was persistent. She tried to convince me that that is how it is. But I never gave in. I went on arguing.
