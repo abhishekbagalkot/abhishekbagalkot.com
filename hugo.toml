@@ -10,9 +10,9 @@ enableRobotsTXT = true
   cloudflareAnalytics = "9ab84ba8c01446cdb621932f259f28ae"   # delete this line to remove analytics
   x = "https://x.com/abhibagalkot"
   linkedin = "https://www.linkedin.com/in/abhishekbagalkot/"
-  categoryNav = ["India", "Technology"]
+  categoryNav = ["Business", "Technology", "History"]
   ogImage = "img/og-card.png"
-  description = "Writings on technology, business and society."
+  description = "Writings on Business, Technology & Indian History"
 
 [markup.goldmark.renderer]
   unsafe = true
