@@ -234,3 +234,22 @@ figcaption {
 }
 .footer-row p { margin: 0; }
 .site-footer .social svg { width: .95rem; height: .95rem; }
+
+/* ---- narrow screens: reclaim vertical space above the article ----
+   Desktop is untouched; only the furniture above the body text shrinks. */
+@media (max-width: 34rem) {
+  /* 1. name fits on one line instead of wrapping */
+  .masthead { font-size: 1.3rem; margin-bottom: .4rem; }
+
+  /* 2. header padding tuned for a phone rather than a wide screen */
+  .site-header { padding-top: 1.5rem; padding-bottom: 1.15rem; }
+
+  /* 3. one deliberate gap before the title, not two stacked ones */
+  h1 { margin-top: .5rem; }
+
+  /* 4. title a touch smaller so it wraps to fewer lines */
+  h1 { font-size: 1.62rem; }
+
+  /* the home page's featured lead uses h2, keep it in proportion */
+  .featured .lead h2 { font-size: 1.55rem; }
+}
