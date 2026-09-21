@@ -4,9 +4,7 @@
   --accent: #8a4b2a;
   --rule: #e6e1d7;
   --meta: #6b675f;   /* dates and reading time only */
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg:#161513; --fg:#eceae5; --accent:#d99b6c; --rule:#2e2c28; --meta:#9b968c; }
+  color-scheme: light;   /* light only — do not follow the OS setting */
 }
 * { box-sizing: border-box; }
 html { font-size: 120%; }
@@ -227,3 +225,12 @@ figcaption {
   color: var(--meta);
   line-height: 1.5;
 }
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footer-row p { margin: 0; }
+.site-footer .social svg { width: .95rem; height: .95rem; }
