@@ -1,5 +1,6 @@
 ---
 title: "About"
+summary: "Abhishek Bagalkot — computer vision and route optimisation for enterprise operations, and what decides whether either one actually lands."
 ---
 
 {{< portrait >}}

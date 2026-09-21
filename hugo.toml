@@ -11,7 +11,7 @@ enableRobotsTXT = true
   x = "https://x.com/abhibagalkot"
   linkedin = "https://www.linkedin.com/in/abhishekbagalkot/"
   categoryNav = ["India", "Technology"]
-  description = "Writing on technology, operations and business."
+  description = "Writings on technology, business and society."
 
 [markup.goldmark.renderer]
   unsafe = true
