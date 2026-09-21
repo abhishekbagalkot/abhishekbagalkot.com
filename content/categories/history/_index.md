@@ -1,3 +1,3 @@
 ---
-title: "Writings: History"
+title: "Writings: Indian History"
 ---

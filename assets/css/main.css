@@ -286,3 +286,19 @@ nav a:active { color: var(--accent); }
 }
 .read-more a:hover { text-decoration: underline; text-underline-offset: .2em; }
 .read-more a:active { opacity: .7; }
+
+/* ---- category bar: one line on narrow screens, scroll rather than wrap ---- */
+@media (max-width: 34rem) {
+  .category-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: .9rem;
+    scrollbar-width: none;            /* Firefox */
+    -ms-overflow-style: none;
+    /* bleed to the screen edges so the last item isn't clipped mid-word */
+    margin-inline: -1.25rem;
+    padding-inline: 1.25rem;
+  }
+  .category-nav::-webkit-scrollbar { display: none; }
+  .category-nav a { font-size: .82rem; white-space: nowrap; }
+}
