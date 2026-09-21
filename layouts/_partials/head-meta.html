@@ -26,7 +26,15 @@
 <meta property="article:section" content="{{ . }}">
 {{- end }}
 {{- end }}
-<meta name="twitter:card" content="summary">
+{{- with site.Params.ogImage }}
+{{- $img := printf "%s%s" site.BaseURL . }}
+<meta property="og:image" content="{{ $img }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Abhishek Bagalkot — writings on technology, business and society">
+<meta name="twitter:image" content="{{ $img }}">
+{{- end }}
+<meta name="twitter:card" content="{{ if site.Params.ogImage }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ $desc }}">
 {{- with $handle }}

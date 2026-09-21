@@ -11,6 +11,7 @@ enableRobotsTXT = true
   x = "https://x.com/abhibagalkot"
   linkedin = "https://www.linkedin.com/in/abhishekbagalkot/"
   categoryNav = ["India", "Technology"]
+  ogImage = "img/og-card.png"
   description = "Writings on technology, business and society."
 
 [markup.goldmark.renderer]
