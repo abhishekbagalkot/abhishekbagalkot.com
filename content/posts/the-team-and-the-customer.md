@@ -1,0 +1,10 @@
+---
+title: "The team and the customer"
+date: 2007-06-27
+draft: true
+categories: ["Business"]
+summary: "Concentrating responsibility for the customer in one person is too much burden on one person — and it stops everyone else seeing what their work does to somebody's life."
+source: "https://theboka.wordpress.com/2007/06/27/the-team-and-the-customer/"
+---
+
+Right now I am working on my first real assignment. We code named it RAStik. I am supposed to develop a software product. We are a team of four people. Three developers and one tester. Plus we had a specialist R&D guy to do our R&D for us before we started. In the beginning I was the requirements guy. I spoke to the customer and the project financiers and wrote a Requirements Document for the product. Everybody agreed. We had some clarity now on what we needed to learn. So we set up the R&D guy to start his part of the job. Then I prepared the time estimates, and the financiers got involved in a price discussion. There were a few disagreeables. We made a few changes. We stripped the application of a few features and stopped the R&D guy from doing his R&D in those areas. By the time the R&D guy finished, we had the project financiers agree upon the time and effort estimations as well. So we set up the new team with the new time and effort estimations…….. the team is now working on this. In the beginning, I played a very active role in the development. Is till do. But I have now noticed something. I noticed that it was not sufficient if I was the only one in charge. I feel it is too much burden on one person. I want the boys to be directly responsible for a few things apart from development. I want the boys to be directly responsible for customer satisfaction. I want them to see what effect their code is producing in whose life? I want them to take charge of improving the customer's life. In most development cycles the team does not directly feel responsible for customer satisfaction. That is a bad practice.  I think.

@@ -1,0 +1,20 @@
+---
+title: "Career advice for people on top!"
+date: 2007-12-10
+draft: true
+categories: ["Business"]
+summary: "What happens after you reach the top early, and the only recipe that stops it stagnating: replace yourself, and do something nobody around you has done."
+source: "https://theboka.wordpress.com/2007/12/10/career-advice-for-people-on-top/"
+---
+
+Well getting on top is tough. But what happens when you get there? There are instances in life where you can get to the top very fast. So you are working for a start up. Within a couple of years you proved yourself to be one of the top performers. What next? So you started a company and worked hard and got somewhere. What you dreamed years ago has finally come true. What next? What happens when you reach the top slot early? Most people have a set of core competencies that are defined in the early years of their career. It is very unlikely that they will change very soon. For example if you are a marketer, and a serious one at that, there is very little chance that you will turn to programming after becoming the head of the marketing department. You will continue to sell. If you are a senior project manager for a construction firm, there is very little chance that you will jump to insurance. You will probably not get into client relations or other functions that are not related to construction at all. Before you make that leap from one job description to another, one needs to stop and think. In every vocation there comes a time when one has done enough of job X and has explored it enough. Now he wants something new. It happens naturally. The problem arises when you are already on top doing what you are doing. Then you don't know what to do next. Then one just goes on increasing the volume of one's work instead of choosing higher directions. Form handling 2 projects to 10 projects. Form handling two business units to 15 business units. Though this is career growth, in the long run it is stagnating, uninteresting and less fun. I suspect this happens with most young entrepreneurs, leads in small companies and senior management where the next career path is not very well defined. If you are facing something similar, read on.
+
+In most achievers there is a need for a challenge. Their creative juices flow out of the impossibility lying ahead. Take the challenge out and you will kill the performer. Then they will become below average performers. Achievers need to be challenged. Continuously. But if you are on top, there is hardly anyone to challenge you. You need to challenge yourself. So here is the recipe: Replace yourself at what you are doing and do something that nobody around has ever done before. This advice comes in two pieces. One replace yourself. Two do something new. And it is imperative you do them together. Doing one without two is not safe and two with one is Herculean.
+
+**Replace Yourself:** If you don't want to stagnate, you need to do new things. But you cannot just stop doing what you were doing before. Somebody, somewhere has to still do those tasks. So get somebody junior to do your job. Throw open your tasks to a couple of guys and start teaching them. Teaching is an inevitable part of leading. To lead well and to lead from the front, you need to do things nobody else could and then teach them to others. This way your whole unit is constantly learning new things. It is on a continuous learning cure and having fun learning them. Replace yourself slowly, gradually. Gently pass your responsibilities to the juniors.
+
+**Do something new:** The reason you are on top, is because you are good. But good people can't escape from getting better. You will have to learn new things. Select your next big target and go ahead. Select something that is realistic but challenging. And go full blast.
+
+Caution! It is important to be very good at your job before you change your job role. Make sure you have done what you are good at long enough before every change. Career skills take time to master.
+
+All the best! Go ahead and create your self the most unique job in the word.
