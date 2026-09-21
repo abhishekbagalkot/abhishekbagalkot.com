@@ -19,15 +19,15 @@ main, .site-header, .site-footer { max-width: 40rem; margin: 0 auto; padding: 0 
 a { color: var(--accent); }
 
 /* ---- header ---- */
-.site-header { padding-top: 2.75rem; padding-bottom: 1.1rem; }
-.masthead { margin: 0 0 .5rem; font-size: 1.6rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.2; }
+.site-header { padding-top: 1.4rem; padding-bottom: 1.1rem; }
+.masthead { margin: 0 0 .25rem; font-size: 1.6rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.2; }
 nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
 nav a { color: var(--fg); text-decoration: none; font-size: .9rem; }
 nav a.current { text-decoration: underline; text-underline-offset: .3em; text-decoration-thickness: 1px; }
 nav a:hover { color: var(--accent); }
 
 /* ---- body type ---- */
-h1 { font-size: 1.95rem; line-height: 1.2; margin: .5rem 0 .4rem; letter-spacing: -.015em; }
+h1 { font-size: 1.95rem; line-height: 1.15; margin: .3rem 0 .3rem; letter-spacing: -.015em; }
 h2 { font-size: 1.35rem; margin-top: 2.25rem; }
 h3 { font-size: 1.1rem; }
 .meta { font-size: .8rem; margin: 0; color: var(--meta); }
@@ -124,8 +124,8 @@ pre code { font-size: 1em; }
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
-  margin: .6rem 0 1.15rem;
-  padding-bottom: .75rem;
+  margin: .35rem 0 .8rem;
+  padding-bottom: .5rem;
   border-bottom: 1px solid var(--rule);
 }
 .category-nav a {
