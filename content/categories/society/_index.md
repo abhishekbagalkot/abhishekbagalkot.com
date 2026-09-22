@@ -1,0 +1,3 @@
+---
+title: "Writings: Social Commentary"
+---
