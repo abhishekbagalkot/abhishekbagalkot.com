@@ -12,7 +12,7 @@ enableRobotsTXT = true
   linkedin = "https://www.linkedin.com/in/abhishekbagalkot/"
   categoryNav = ["Business", "Technology", "Society", "Stories"]
   ogImage = "img/og-card.png"
-  description = "Writings on Business, Technology & Indian History"
+  description = "Writings on Business, Technology & Society"
 
 [markup.goldmark.renderer]
   unsafe = true
