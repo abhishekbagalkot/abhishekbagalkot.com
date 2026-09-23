@@ -1,5 +1,5 @@
 ---
-title: "Rainy Day"
+title: "Rainy day"
 date: 2007-09-25
 source: "https://theboka.wordpress.com/2007/09/25/rainy-day/"
 categories: ["Stories"]

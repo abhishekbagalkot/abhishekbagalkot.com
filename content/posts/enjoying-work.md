@@ -1,5 +1,5 @@
 ---
-title: "Enjoying Work"
+title: "Enjoying work"
 date: 2025-08-26
 categories: ["Business"]
 featured: true

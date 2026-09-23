@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Without Language Barriers"
+title: "Knowledge without language barriers"
 date: 2026-09-23
 categories: ["Technology"]
 image: "img/knowledge-without-language-barriers.png"

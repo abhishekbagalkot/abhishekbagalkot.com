@@ -4,7 +4,7 @@ date: 2007-06-13
 categories: ["Technology"]
 source: "https://theboka.wordpress.com/2007/06/13/navigation/"
 ---
-There are some issues here. Navigating across one view and the other is always a matter of choice. You see, there are lot of ways of navigating across a software. Some of them are
+Navigating across one view and the other is always a matter of choice. You see, there are lot of ways of navigating across a software. Some of them are
 
 1. Menus
 2. Nested Menus and Context Menus
