@@ -8,7 +8,7 @@
 {{- end -}}
 {{- with $related -}}
 <section class="related" aria-labelledby="related-heading">
-  <h2 id="related-heading">Related Writings</h2>
+  <h2 id="related-heading">Related writings</h2>
   {{ partial "post-list-compact.html" (first 3 (sort . "Date" "desc")) }}
 </section>
 {{- end -}}

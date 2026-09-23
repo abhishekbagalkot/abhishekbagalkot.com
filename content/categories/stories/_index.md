@@ -1,3 +1,3 @@
 ---
-title: "Writings: Short Stories"
+title: "Writings: Short stories"
 ---
