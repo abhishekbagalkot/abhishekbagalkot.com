@@ -13,6 +13,8 @@ This is very unfortunate. Personally, I regret that I am unable to read and unde
 
 Yet, with the use of technology, it should be possible to search for ideas in one language and get results from texts written in a completely different language. This would make all knowledge useful to everyone, irrespective of their language training.
 
+{{< figure src="img/knowledge-without-language-barriers.png" alt="A diagram: a search in one language branches out to texts in Sanskrit, Prakrit and Pali, with the caption: results from texts written in a completely different language." >}}
+
 I am curious whether this is possible with existing technology or newer tools like LLMs.
 
 But I can't be sure.
