@@ -1,0 +1,14 @@
+{{- /* Related writings: up to three other posts from the same category, newest first. Hidden if there are none. */ -}}
+{{- $cats := .Params.categories | default slice -}}
+{{- $related := slice -}}
+{{- with $cats -}}
+  {{- range where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" $cats -}}
+    {{- if ne .RelPermalink $.RelPermalink }}{{ $related = $related | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $related -}}
+<section class="related" aria-labelledby="related-heading">
+  <h2 id="related-heading">Related Writings</h2>
+  {{ partial "post-list-compact.html" (first 3 (sort . "Date" "desc")) }}
+</section>
+{{- end -}}
