@@ -1,3 +1,3 @@
 ---
-title: "Writings: Social Commentary"
+title: "Writings: Social Science"
 ---
