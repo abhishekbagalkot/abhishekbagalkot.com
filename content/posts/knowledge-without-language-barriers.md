@@ -3,7 +3,7 @@ title: "Knowledge Without Language Barriers"
 date: 2026-09-23
 categories: ["Technology"]
 ---
-India's language diversity creates barriers for its vast citizenry to understand one another. A skilful farmer in Rajasthan cannot share insights with a farmer in Karnataka. They simply don't have a common language.
+India's language diversity creates barriers for its vast citizenry to understand one another. A skilful farmer in Rajasthan cannot share insights with a farmer in Karnataka. They simply may not have a common language.
 
 Beyond the common person, even the highly trained cannot access ideas written in languages they can't read. Many of India's scholarly works were written in classical languages that most people do not understand today, such as Sanskrit, Prakrit and Pali.
 
