@@ -3,7 +3,6 @@ title: "Enjoying Work"
 date: 2025-08-26
 categories: ["Business"]
 featured: true
-summary: "Work is not only a means of building self-worth through outcomes — it is also where a person has to find daily joy. The hero habit that serves you early in a career quietly takes that away later."
 ---
 Any significant achievement requires consistent long term focussed efforts while facing and overcoming challenges and failures. It is also humanly impossible to maintain a sustained long time effort without enjoying what we do on a day to day basis. Unless we are hoping to win a lottery and solve all your problems magically, the world will pull your hopes and dreams into chaos and we will constantly be fighting disappointments and have to put in more effort than planned to save the day. There are many different types of lotteries we all hope to win. Wanting to get lucky in business, relationships or money and not having to face challenges or failures are lotteries we all are secretly hoping for.
 

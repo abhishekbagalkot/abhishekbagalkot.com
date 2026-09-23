@@ -2,7 +2,6 @@
 title: "The team and the customer"
 date: 2007-06-27
 categories: ["Business"]
-summary: "Concentrating responsibility for the customer in one person is too much burden on one person — and it stops everyone else seeing what their work does to somebody's life."
 source: "https://theboka.wordpress.com/2007/06/27/the-team-and-the-customer/"
 ---
 

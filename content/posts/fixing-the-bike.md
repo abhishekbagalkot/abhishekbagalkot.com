@@ -1,7 +1,6 @@
 ---
 title: "Fixing the bike"
 date: 2007-07-17
-summary: "A day spent at a motorcycle garage, watching a mechanic who listens to engines and a friend who only talks — and working out why their friendship holds."
 source: "https://theboka.wordpress.com/2007/07/17/fixing-the-bike/"
 categories: ["Stories"]
 ---

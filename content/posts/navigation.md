@@ -2,7 +2,6 @@
 title: "Navigation"
 date: 2007-06-13
 categories: ["Technology"]
-summary: "Menus, tabs, nested menus, context menus — what each one costs the user in clicks, and why the choice between them is a design decision rather than a default."
 source: "https://theboka.wordpress.com/2007/06/13/navigation/"
 ---
 There are some issues here. Navigating across one view and the other is always a matter of choice. You see, there are lot of ways of navigating across a software. Some of them are

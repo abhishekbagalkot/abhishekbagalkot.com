@@ -5,7 +5,7 @@
   {{- else }}
     {{- with .Description }}{{ $desc = . }}
     {{- else }}
-      {{- with .Summary }}{{ $desc = (. | plainify | replaceRE "\\s+" " " | strings.TrimSpace | truncate 180) }}{{ end }}
+      {{- with .Summary }}{{ $desc = (. | plainify | htmlUnescape | replaceRE "\\s+" " " | strings.TrimSpace | truncate 180) }}{{ end }}
     {{- end }}
   {{- end }}
 {{- end -}}

@@ -1,7 +1,6 @@
 ---
 title: "Rainy Day"
 date: 2007-09-25
-summary: "An evening walk in the rain, a cigarette and a coffee at a pan shop, and a sound from across the crossroad that the evening cannot absorb."
 source: "https://theboka.wordpress.com/2007/09/25/rainy-day/"
 categories: ["Stories"]
 ---

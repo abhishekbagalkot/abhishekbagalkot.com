@@ -1,7 +1,6 @@
 ---
 title: "Physics"
 date: 2007-06-18
-summary: "The first thing I ever fell in love with — a question about the inverted image on the retina, and a year when Newton's laws explained everything at once."
 source: "https://theboka.wordpress.com/2007/06/18/physics/"
 categories: ["Stories"]
 ---

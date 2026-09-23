@@ -2,7 +2,6 @@
 title: "Can protests truly improve society?"
 date: 2026-07-21
 categories: ["Society"]
-summary: "Protestors often think of themselves as agents of change. The first and most important responsibility of an agent of change is not to speak to the government, but to fellow citizens."
 source: "https://www.linkedin.com/pulse/can-protests-truly-improve-society-abhishek-bagalkot-jixtc/"
 ---
 Protestors often think of themselves an agent of change and take pride in it. I'd like to examine that claim.

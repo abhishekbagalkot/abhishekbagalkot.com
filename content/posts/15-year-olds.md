@@ -1,7 +1,6 @@
 ---
 title: "15 year olds"
 date: 2007-06-19
-summary: "Arguing with a physics teacher about why light bends upward in a mirage, refusing to back down, and finding out years later what was actually going on."
 source: "https://theboka.wordpress.com/2007/06/19/15-year-olds/"
 categories: ["Stories"]
 ---

@@ -1,7 +1,6 @@
 ---
 title: "The Swim"
 date: 2007-05-07
-summary: "Why pushing your body to exhaustion lets you examine it clinically, and why the same detachment is impossible when it is your ego taking the beating."
 source: "https://theboka.wordpress.com/2007/05/07/the-swim/"
 categories: ["Stories"]
 ---

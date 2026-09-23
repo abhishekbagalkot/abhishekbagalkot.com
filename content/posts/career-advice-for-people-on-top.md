@@ -3,7 +3,6 @@ title: "Career advice for people on top!"
 date: 2007-12-10
 draft: true
 categories: ["Business"]
-summary: "What happens after you reach the top early, and the only recipe that stops it stagnating: replace yourself, and do something nobody around you has done."
 source: "https://theboka.wordpress.com/2007/12/10/career-advice-for-people-on-top/"
 ---
 

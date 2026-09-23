@@ -2,7 +2,6 @@
 title: "What is product strategy?"
 date: 2016-12-05
 categories: ["Business"]
-summary: "What product strategy actually means for an early stage software startup. Using Airbnb and Uber, how to think through a product's strategy — value proposition, customer segmentation, customer journey, customer benefits."
 ---
 *Article explains what product strategy actually means for an early stage software startup. Using examples of Airbnb and Uber article shows how one can think through their product's strategy. While the article is written for the software industry, the underlying concepts can be applied to other industries as well.*
 

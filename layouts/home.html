@@ -11,7 +11,7 @@
   <article class="lead">
     <h2><a href="{{ $lead.RelPermalink }}">{{ $lead.Title }}</a></h2>
     {{ partial "post-meta.html" $lead }}
-    <p class="excerpt">{{ with $lead.Params.summary }}{{ . }}{{ else }}{{ $lead.Summary | plainify | truncate 260 }}{{ end }}</p>
+    <p class="excerpt">{{ with $lead.Params.summary }}{{ . }}{{ else }}{{ $lead.Summary | plainify | htmlUnescape | truncate 260 }}{{ end }}</p>
     {{ partial "read-more.html" $lead }}
   </article>
 
@@ -21,7 +21,7 @@
     <article>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       {{ partial "post-meta.html" . }}
-      <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 170 }}{{ end }}</p>
+      <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 170 }}{{ end }}</p>
       {{ partial "read-more.html" . }}
     </article>
     {{ end }}
