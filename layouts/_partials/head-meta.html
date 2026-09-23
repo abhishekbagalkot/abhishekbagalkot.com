@@ -26,15 +26,18 @@
 <meta property="article:section" content="{{ . }}">
 {{- end }}
 {{- end }}
-{{- with site.Params.ogImage }}
-{{- $img := printf "%s%s" site.BaseURL . }}
+{{- $ogImage := site.Params.ogImage -}}
+{{- $ogAlt := "Abhishek Bagalkot — writings on business, technology and society" -}}
+{{- with .Params.image }}{{ $ogImage = . }}{{ $ogAlt = $.Title }}{{ end -}}
+{{- with $ogImage }}
+{{- $img := printf "%s%s" site.BaseURL (strings.TrimPrefix "/" .) }}
 <meta property="og:image" content="{{ $img }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Abhishek Bagalkot — writings on business, technology and society">
+<meta property="og:image:alt" content="{{ $ogAlt }}">
 <meta name="twitter:image" content="{{ $img }}">
 {{- end }}
-<meta name="twitter:card" content="{{ if site.Params.ogImage }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:card" content="{{ if $ogImage }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ $desc }}">
 {{- with $handle }}
