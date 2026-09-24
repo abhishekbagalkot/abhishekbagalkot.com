@@ -1,7 +1,7 @@
 ---
 title: "Can protests truly improve society?"
 date: 2026-07-21
-categories: ["Society"]
+categories: ["Essays"]
 source: "https://www.linkedin.com/pulse/can-protests-truly-improve-society-abhishek-bagalkot-jixtc/"
 ---
 Protestors often think of themselves an agent of change and take pride in it. I'd like to examine that claim.
