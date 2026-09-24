@@ -1,3 +1,3 @@
 ---
-title: "Writings: Essays"
+title: "Writings: Social essays"
 ---
