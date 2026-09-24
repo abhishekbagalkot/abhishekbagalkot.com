@@ -28,7 +28,7 @@ These realizations infuse doubt & fear. They make me uncomfortable. In some way,
 
 In the Mahabharata, even the Pandavas faced injustice. They were forced out of their own kingdom with a rigged game of dice. Draupadi was assaulted in her own house. They were all forced to live in forests with meager means. But the story ends with their eventual triumph. That probably restored a sense of justice in us. Maybe even a sense of revenge. But not all subjects are as strong and powerful as the Pandavas. Some may not even have the means to fight.
 
-The Jews. The Korean pleasure women. The citizens of Nanjing. Those defeated by Genghis Khan. Trojan citizens after the war. Indians during foreign rule. The enslaved people across the globe. All were subject to inhumane treatment.
+The Jews. The Korean comfort women. The citizens of Nanjing. Those defeated by Genghis Khan. Trojan citizens after the war. Indians during foreign rule. The enslaved people across the globe. All were subject to inhumane treatment.
 
 Did all of them eventually triumph over the oppressor? We can’t be sure. I feel maybe not all. We don’t know all their stories. Their stories are lost. All we know is that they must have suffered.
 
