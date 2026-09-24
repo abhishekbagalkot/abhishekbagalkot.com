@@ -306,3 +306,18 @@ nav a:active { color: var(--accent); }
   .category-nav::-webkit-scrollbar { display: none; }
   .category-nav a { font-size: .82rem; white-space: nowrap; }
 }
+
+/* ---- watermark: set `watermark: "DRAFT"` in a post's front matter ---- */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font: 700 clamp(5rem, 22vw, 14rem)/1 system-ui, -apple-system, sans-serif;
+  letter-spacing: .08em;
+  color: rgba(180, 30, 30, .13);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1000;
+}

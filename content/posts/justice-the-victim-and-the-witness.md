@@ -7,6 +7,8 @@ build:
   render: always
 sitemap:
   disable: true
+noindex: true
+watermark: "DRAFT"
 ---
 I am distressed by the political & societal happenings in the SC/ST Act and the IIT Bombay case.
 

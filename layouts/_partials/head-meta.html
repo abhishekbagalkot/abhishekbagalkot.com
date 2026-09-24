@@ -13,6 +13,9 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- if .Params.noindex }}
+<meta name="robots" content="noindex">
+{{- end }}
 <meta property="og:type" content="{{ if eq .Section "posts" }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ $desc }}">
