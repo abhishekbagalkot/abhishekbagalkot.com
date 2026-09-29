@@ -2,6 +2,7 @@
 title: "Hidden cost of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
+image: "img/hidden-cost-of-manual-transport-planning.png"
 ---
 Manual transport planning most often defaults to dividing the service areas by territory. Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.
 
@@ -39,3 +40,5 @@ With the same stops and the same fleet, the algorithm drops the territories. It 
 - **Less driving.** Total distance falls from 99 km to 78.4 km, about 21% less. The longest working day drops from 7.1 to 5.4 hours.
 
 Because the plan is recalculated each time, it adapts to what changes: new orders, blockages, and shifting priorities.
+
+{{< figure src="img/manual-vs-algorithmic-transport-planning.png" alt="Comparison. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
