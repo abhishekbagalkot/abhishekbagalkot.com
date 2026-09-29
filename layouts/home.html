@@ -10,8 +10,7 @@
   {{ $lead := index . 0 }}
   <article class="lead">
     <h2><a href="{{ $lead.RelPermalink }}">{{ $lead.Title }}</a></h2>
-    {{ partial "post-meta.html" $lead }}
-    {{ partial "post-tags.html" $lead }}
+    {{ partial "post-meta-tags.html" $lead }}
     <p class="excerpt">{{ with $lead.Params.summary }}{{ . }}{{ else }}{{ $lead.Summary | plainify | htmlUnescape | truncate 260 }}{{ end }}</p>
     {{ partial "read-more.html" $lead }}
   </article>
@@ -21,8 +20,7 @@
     {{ range . }}
     <article>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      {{ partial "post-meta.html" . }}
-      {{ partial "post-tags.html" . }}
+      {{ partial "post-meta-tags.html" . }}
       <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 170 }}{{ end }}</p>
       {{ partial "read-more.html" . }}
     </article>

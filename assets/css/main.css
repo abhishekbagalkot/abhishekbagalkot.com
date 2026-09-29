@@ -334,11 +334,22 @@ ul.tag-index a:hover { color: var(--accent); text-decoration: underline; text-un
 ul.tag-index .count { color: var(--meta); font-size: .8rem; margin-left: .15rem; }
 
 /* ---- home: recent list with category and tags ---- */
-ul.post-list.recent-list > li { display: block; padding: .6rem 0; }
+ul.post-list.recent-list > li { display: block; padding: .5rem 0; }
 ul.recent-list .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
-ul.recent-list .recent-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .7rem; margin-top: .15rem; }
-ul.recent-list .recent-meta .tags { margin: 0; }
-ul.post-list.recent-list .recent-meta a.cat { font-size: .78rem; color: var(--meta); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .22em; }
-ul.post-list.recent-list .recent-meta a.cat:hover { color: var(--accent); }
-ul.post-list.recent-list .recent-meta .tags a { text-decoration: none; color: var(--meta); font-size: .78rem; }
-ul.post-list.recent-list .recent-meta .tags a:hover { color: var(--accent); }
+ul.recent-list .title-line { display: inline; }
+ul.recent-list .recent-meta { margin-left: .6rem; font-size: .78rem; white-space: normal; }
+ul.recent-list .recent-meta a { margin-right: .6rem; color: var(--meta); }
+ul.post-list.recent-list .recent-meta a.cat { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .22em; }
+ul.post-list.recent-list .recent-meta a.tag { text-decoration: none; }
+ul.post-list.recent-list .recent-meta a:hover { color: var(--accent); }
+
+/* ---- tags inline in preview meta line ---- */
+.meta .meta-tags { margin-left: .6rem; }
+.meta .meta-tags a.tag { text-decoration: none; margin-right: .55rem; white-space: nowrap; }
+.meta .meta-tags a.tag:hover { color: var(--accent); text-decoration: underline; }
+ul.recent-list .title-line { flex: 1; min-width: 0; }
+ul.recent-list .row time { flex: none; }
+ul.recent-list .recent-meta a { white-space: nowrap; display: inline-block; }
+@media (max-width: 600px) {
+  ul.recent-list .recent-meta { display: block; margin-left: 0; margin-top: .15rem; }
+}
