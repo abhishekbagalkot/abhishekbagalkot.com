@@ -1,6 +1,5 @@
 ---
 title: "Hidden cost of manual transport planning"
-aliases: ["/posts/hidden-cost-of-territory-based-transport-planning/"]
 date: 2026-09-29
 categories: ["Technology"]
 ---
