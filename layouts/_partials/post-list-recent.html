@@ -6,7 +6,6 @@
         <a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a>
         <span class="recent-meta">
           {{- range .Params.categories }}<a class="cat" href="{{ printf "/categories/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end -}}
-          {{- range .GetTerms "tags" }}{{ if .Pages }}<a class="tag" href="{{ .RelPermalink }}">#{{ replace .LinkTitle " " "-" }}</a>{{ end }}{{ end -}}
         </span>
       </span>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
