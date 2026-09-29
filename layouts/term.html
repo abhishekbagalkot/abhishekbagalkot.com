@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>{{ if eq .Data.Plural "tags" }}Tagged: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
 {{ partial "category-nav.html" . }}
 {{ .Content }}
 {{ with .Pages.ByDate.Reverse }}
@@ -7,4 +7,5 @@
 {{ else }}
   <p class="empty-note">Nothing filed here yet.</p>
 {{ end }}
+{{ if eq .Data.Plural "tags" }}<p class="more"><a href="{{ "/tags/" | relURL }}">All tags →</a></p>{{ end }}
 {{ end }}

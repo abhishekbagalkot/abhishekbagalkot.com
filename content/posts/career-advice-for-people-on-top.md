@@ -2,6 +2,7 @@
 title: "Career advice for people on top!"
 date: 2007-12-10
 categories: ["Business"]
+tags: ["careers", "leadership", "startups"]
 source: "https://theboka.wordpress.com/2007/12/10/career-advice-for-people-on-top/"
 build:
   list: never

@@ -2,9 +2,11 @@ baseURL = "https://abhishekbagalkot.com/"
 languageCode = "en-us"
 title = "Abhishek Bagalkot"
 enableRobotsTXT = true
+capitalizeListTitles = false
 
 [taxonomies]
   category = "categories"
+  tag = "tags"
 
 [params]
   cloudflareAnalytics = "9ab84ba8c01446cdb621932f259f28ae"   # delete this line to remove analytics

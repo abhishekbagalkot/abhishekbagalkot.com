@@ -3,6 +3,7 @@ title: "15 year olds"
 date: 2007-06-19
 source: "https://theboka.wordpress.com/2007/06/19/15-year-olds/"
 categories: ["Stories"]
+tags: ["school", "teachers", "learning"]
 ---
 
 When I graduated from standard 7 to standard 8 we had a new teacher to teach us Physics. I still remember her name was Kalpana. We used to call her "Kalpana Miss". She taught very well. She answered every question honestly. She made sure you understood it. She encouraged asking questions. What was more she loved me. I was the most mischievous of the whole class. But I was never punished. I was also the guy who asked the most questions. And also the guy who paid he most attention to every concept. But only till I understood it.

@@ -2,6 +2,7 @@
 title: "Navigation"
 date: 2007-06-13
 categories: ["Technology"]
+tags: ["software", "user interface design"]
 source: "https://theboka.wordpress.com/2007/06/13/navigation/"
 ---
 Navigating across one view and the other is always a matter of choice. You see, there are lot of ways of navigating across a software. Some of them are

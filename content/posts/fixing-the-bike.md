@@ -3,6 +3,7 @@ title: "Fixing the bike"
 date: 2007-07-17
 source: "https://theboka.wordpress.com/2007/07/17/fixing-the-bike/"
 categories: ["Stories"]
+tags: ["learning", "motorbikes"]
 ---
 
 A few few days ago a fresh guilt took hold of me….. Of not getting my motorbike serviced. I had missed the second service by months. My heart was bleeding. On 07-07-07, "no more" I said. I took my bike to service. I took an entire day off and decided to spend the whole day at the garage. "I'll learn something" I told myself. Must be a guilty biker's consciousness on the prowl.

@@ -2,6 +2,7 @@
 title: "Hidden cost of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
+tags: ["logistics", "transport planning", "route optimisation", "operations"]
 image: "img/hidden-cost-of-manual-transport-planning.png"
 ---
 Manual transport planning most often defaults to dividing the service areas by territory. Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.

@@ -1,0 +1,5 @@
+{{- $terms := slice -}}
+{{- range .GetTerms "tags" }}{{ if .Pages }}{{ $terms = $terms | append . }}{{ end }}{{ end -}}
+{{- with $terms -}}
+<p class="tags">{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</p>
+{{- end -}}

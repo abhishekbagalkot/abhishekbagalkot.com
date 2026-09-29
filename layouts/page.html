@@ -4,6 +4,7 @@
   <h1{{ if ne .Section "posts" }} class="sr-only"{{ end }}>{{ .Title }}</h1>
   {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
   {{ .Content }}
+  {{ if eq .Section "posts" }}<div class="article-tags">{{ partial "post-tags.html" . }}</div>{{ end }}
 </article>
 {{ if eq .Section "posts" }}{{ partial "related.html" . }}{{ end }}
 {{ end }}

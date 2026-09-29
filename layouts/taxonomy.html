@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ if eq .Data.Plural "tags" }}Tags{{ else }}{{ .Title }}{{ end }}</h1>
+{{ partial "category-nav.html" . }}
+<ul class="tag-index">
+{{ range .Data.Terms.Alphabetical }}
+  {{ $n := len .Page.Pages }}
+  {{ if gt $n 0 }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> <span class="count">{{ $n }}</span></li>{{ end }}
+{{ end }}
+</ul>
+{{ end }}

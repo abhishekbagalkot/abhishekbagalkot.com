@@ -2,6 +2,7 @@
 title: "The team and the customer"
 date: 2007-06-27
 categories: ["Business"]
+tags: ["software", "teams", "customers"]
 source: "https://theboka.wordpress.com/2007/06/27/the-team-and-the-customer/"
 ---
 

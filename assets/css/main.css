@@ -321,3 +321,23 @@ nav a:active { color: var(--accent); }
   user-select: none;
   z-index: 1000;
 }
+
+/* ---- tags ---- */
+.tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: .45rem 0 .5rem; padding: 0; }
+.tags a {
+  font-size: .74rem;
+  line-height: 1.2;
+  padding: .22rem .6rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--meta);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.tags a:hover { color: var(--accent); border-color: var(--accent); }
+.article-tags { margin-top: 2.5rem; }
+ul.tag-index { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-wrap: wrap; gap: .6rem; }
+ul.tag-index li { margin: 0; }
+ul.tag-index a { display: inline-block; padding: .3rem .75rem; border: 1px solid var(--rule); border-radius: 999px; color: var(--fg); text-decoration: none; font-size: .9rem; }
+ul.tag-index a:hover { color: var(--accent); border-color: var(--accent); }
+ul.tag-index .count { color: var(--meta); font-size: .8rem; margin-left: .15rem; }

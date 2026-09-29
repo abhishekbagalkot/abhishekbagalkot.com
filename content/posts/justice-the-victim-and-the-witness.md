@@ -2,6 +2,7 @@
 title: "Justice, the victim and the witness"
 date: 2026-09-24
 categories: ["Essays"]
+tags: ["society", "justice", "India"]
 build:
   list: never
   render: always
