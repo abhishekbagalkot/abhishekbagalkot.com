@@ -1,5 +1,5 @@
 ---
-title: "Hidden cost of manual transport planning"
+title: "Hidden costs of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
@@ -11,7 +11,7 @@ Manual transport planning most often defaults to dividing the service areas by t
 
 ## The fundamental problems
 
-### 1. Cannot optimise for the KPIs.
+### 1. Cannot optimise for the KPIs
 
 Territories are drawn around geography, not around cost per drop, on-time delivery, or fleet utilisation. Each vehicle is planned within its own territory, so the fleet is never optimised as a whole.
 
@@ -44,4 +44,4 @@ With the same stops and the same fleet, the algorithm drops the territories. It 
 
 Because the plan is recalculated each time, it adapts to what changes: new orders, blockages, and shifting priorities.
 
-{{< figure src="img/hidden-cost-of-manual-transport-planning.png" alt="Hidden cost of manual transport planning, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
+{{< figure src="img/hidden-cost-of-manual-transport-planning.png" alt="Hidden costs of manual transport planning, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
