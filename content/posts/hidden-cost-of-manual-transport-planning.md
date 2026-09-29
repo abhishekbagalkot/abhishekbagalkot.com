@@ -27,7 +27,7 @@ Yet, business KPIs like total fuel cost, average turnaround time, total driver h
 
 Manual transport planning cannot account for such higher order interactions between competing objectives or take into account that locally optimised KPIs may not aggregate well at a global business level.
 
-## The fundamental problems
+Fundamentally, manual transport planning has the following features
 
 ### 1. Cannot optimise for the KPIs
 
