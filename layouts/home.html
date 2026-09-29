@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $posts := where site.RegularPages "Section" "posts" }}
-{{ $featured := first 3 (where $posts "Params.featured" true).ByDate.Reverse }}
+{{ $featured := first 3 (sort (where $posts "Params.featured" true) "Params.featuredOrder") }}
 {{ if not $featured }}
   {{ $featured = first 3 $posts.ByDate.Reverse }}
 {{ end }}
@@ -42,7 +42,7 @@
 {{ with first 6 $recent }}
 <section class="recent">
   <h2 class="section-label">Recent</h2>
-  {{ partial "post-list-compact.html" . }}
+  {{ partial "post-list-recent.html" . }}
   <p class="more"><a href="{{ "/posts/" | relURL }}">All writings →</a></p>
 </section>
 {{ end }}

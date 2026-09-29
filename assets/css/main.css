@@ -341,3 +341,13 @@ ul.tag-index li { margin: 0; }
 ul.tag-index a { display: inline-block; padding: .3rem .75rem; border: 1px solid var(--rule); border-radius: 999px; color: var(--fg); text-decoration: none; font-size: .9rem; }
 ul.tag-index a:hover { color: var(--accent); border-color: var(--accent); }
 ul.tag-index .count { color: var(--meta); font-size: .8rem; margin-left: .15rem; }
+
+/* ---- home: recent list with category and tags ---- */
+ul.post-list.recent-list > li { display: block; padding: .6rem 0; }
+ul.recent-list .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+ul.recent-list .recent-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .6rem; margin-top: .3rem; }
+ul.recent-list .recent-meta .tags { margin: 0; }
+ul.post-list.recent-list .recent-meta a.cat { font-size: .78rem; color: var(--meta); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .22em; }
+ul.post-list.recent-list .recent-meta a.cat:hover { color: var(--accent); }
+ul.post-list.recent-list .recent-meta .tags a { text-decoration: none; color: var(--meta); }
+ul.post-list.recent-list .recent-meta .tags a:hover { color: var(--accent); }

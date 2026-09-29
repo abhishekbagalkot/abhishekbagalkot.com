@@ -1,0 +1,14 @@
+<ul class="post-list compact recent-list">
+{{ range . }}
+  <li>
+    <div class="row">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+    </div>
+    <div class="recent-meta">
+      {{- range .Params.categories }}<a class="cat" href="{{ printf "/categories/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end -}}
+      {{ partial "post-tags.html" . }}
+    </div>
+  </li>
+{{ end }}
+</ul>
