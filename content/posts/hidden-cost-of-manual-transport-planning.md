@@ -26,7 +26,7 @@ Demand, urgency, and road conditions shift every day, even within the same terri
 The planner assigns each delivery to the vehicle that owns its territory. The driver then sequences the stops, usually by habit. The map shows three consequences:
 
 - **Urgent orders wait.** A5 is urgent but sits at the end of Vehicle A's route, so it's delivered last. Vehicle C, which is closer and has room, never gets it.
-- **Detours absorb the blockage.** When Vehicle B's usual road is blocked, it drives 11.2 km around it. A 6.2 km alternative existed.
+- **Detours absorb the blockage.** When Vehicle B's usual road is blocked, it drives 11.2 km around it, even though a 6.2 km alternative existed.
 - **Capacity sits idle.** Vehicle C runs at 42% while A and B are near full.
 
 None of these show up as planning errors. They show up as overtime, fuel bills, and missed deliveries.
@@ -38,7 +38,7 @@ None of these show up as planning errors. They show up as overtime, fuel bills, 
 With the same stops and the same fleet, the algorithm drops the territories. It considers all deliveries, vehicle capacities, travel distances, and priorities together, then recommends the routes. The result:
 
 - **The urgent order goes first.** A5 moves to Vehicle C and becomes its first stop.
-- **Better routes, even unfamiliar ones.** Vehicle B takes the shorter reroute around the blockage.
+- **Better routes, even unfamiliar ones.** Vehicle B takes the shorter reroute around the blockage because of the algorithmic route recommendation.
 - **Balanced loads.** Utilisation evens out at 68–73% across all three vehicles.
 - **Less driving.** Total distance falls from 99 km to 78.4 km, about 21% less. The longest working day drops from 7.1 to 5.4 hours.
 
