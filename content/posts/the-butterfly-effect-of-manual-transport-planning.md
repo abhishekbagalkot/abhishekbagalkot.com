@@ -35,9 +35,11 @@ Territories are drawn around geography, not around cost per drop, on-time delive
 
 ### 2. Cannot adapt to dynamic conditions
 
-Demand, urgency, and road conditions shift every day, even within the same territory. There is limited scope for redistribution of work.
+Manual planning is time-consuming. Redoing the plan when ground reality changes is highly time-consuming. If a driver is absent or a vehicle breaks down, the situation often results in unacceptable delays. Yet, road conditions, traffic conditions and delivery urgencies change every day.
 
 ## How territory-based planning works
+
+Territory planning divides the whole service area into smaller chunks serviced by an individual vehicle. The diagram below demonstrates this.
 
 {{< figure src="img/territory-based-transport-planning.svg" alt="Map of three fixed territories served from one hub. Vehicle A runs at 83% load over 29.4 km with urgent stop A5 delivered last; Vehicle B at 79% detours 11.2 km around a road blockage; Vehicle C runs at 42% load." >}}
 
