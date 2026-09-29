@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1>{{ if eq .Data.Plural "tags" }}Tagged: {{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+<h1>{{ if eq .Data.Plural "tags" }}#{{ replace .Title " " "-" }}{{ else }}{{ .Title }}{{ end }}</h1>
 {{ partial "category-nav.html" . }}
 {{ .Content }}
 {{ with .Pages.ByDate.Reverse }}
