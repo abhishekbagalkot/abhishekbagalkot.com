@@ -2,7 +2,7 @@
 {{ range . }}
   <li>
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ partial "post-meta.html" . }}
+    {{ partial "post-meta-tags.html" . }}
     <p class="excerpt">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 230 }}{{ end }}</p>
     {{ partial "read-more.html" . }}
   </li>
