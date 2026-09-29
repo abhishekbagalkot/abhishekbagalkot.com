@@ -7,13 +7,19 @@ featured: true
 featuredOrder: 1
 image: "img/hidden-cost-of-manual-transport-planning.png"
 ---
-Operating a vehicle fleet for delivery or collection of goods to & from various locations is a common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.
+Operating a vehicle fleet for delivery or collection of goods to & from various locations is a very common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.
 
 These fleets are purchased or engaged in advance. Drivers assemble at depots at the beginning of a shift. Routes are then assigned to drivers to complete multiple finite sets of tasks, the status of which is often tracked digitally.
 
-We are able to see these vehicle operations every day in our daily lives. But the science of optimised assignment of vehicles and routes and its benefits are not well understood by most of us. Not only by the general public, but even by some experienced transport managers too. This article explains, from first principles, an algorithmic approach to optimised vehicle and route assignment in transport planning.
+We are able to see such vehicle operations in our everyday lives. But the science of assigning vehicles and routes, called transport planning, is not well understood by most of us. Not only by the general public, but even so by some experienced transport managers. Optimised transport planning is often a counter-intuitive process with many moving variables.
 
-Traditionally, transport planning most often defaults to dividing the service area into smaller territories first. A large service area is divided into smaller non-intersecting territories that can be serviced by a single vehicle or a small collection of vehicles. After which, vehicle assignment and route planning is done.
+Yet, there is much to be gained from studying & improving our transport planning. Delivering customer orders on time, every time increases customer delight and repeat orders. Delivering perishable goods on time is so critical, failing which a double whammy would hit the P&L's top line and the bottom line alike. Ensuring product availability after a successful marketing campaign can really accelerate revenue.
+
+This article explains the benefits of an algorithmic transport planning approach for vehicle and route assignment. This approach can be used by planners to optimise transport operations for KPI improvement or to rapidly respond to changing realities or obstacles in the transport operations.
+
+## Manual planning methods
+
+Traditionally, transport planning most often defaults to dividing the service areas into smaller territories first. A large service area is divided into smaller non-intersecting territories, that can be serviced by a single or small collection of vehicles. Post which vehicle assignment and route planning is done.
 
 ## The fundamental problems
 
