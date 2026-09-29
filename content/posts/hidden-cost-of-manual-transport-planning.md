@@ -7,7 +7,13 @@ featured: true
 featuredOrder: 1
 image: "img/hidden-cost-of-manual-transport-planning.png"
 ---
-Manual transport planning most often defaults to dividing the service areas by territory. Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.
+Operating a vehicle fleet for delivery or collection of goods to & from various locations is a common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.
+
+These fleets are purchased or engaged in advance. Drivers assemble at depots at the beginning of a shift. Routes are then assigned to drivers to complete multiple finite sets of tasks, the status of which is often tracked digitally.
+
+We are able to see these vehicle operations every day in our daily lives. But the science of optimised assignment of vehicles and routes and its benefits are not well understood by most of us. Not only by the general public, but even by some experienced transport managers too. This article explains, from first principles, an algorithmic approach to optimised vehicle and route assignment in transport planning.
+
+Traditionally, transport planning most often defaults to dividing the service area into smaller territories first. A large service area is divided into smaller non-intersecting territories that can be serviced by a single vehicle or a small collection of vehicles. After which, vehicle assignment and route planning is done.
 
 ## The fundamental problems
 
