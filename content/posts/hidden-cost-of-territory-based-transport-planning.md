@@ -1,9 +1,9 @@
 ---
-title: "The hidden cost of territory-based transport planning"
+title: "Hidden cost of territory-based transport planning"
 date: 2026-09-29
 categories: ["Technology"]
 ---
-Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's common because it's simple to run, and drivers work familiar areas and customers.
+Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.
 
 ## The fundamental problems
 
@@ -11,9 +11,9 @@ Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are pl
 
 Territories are drawn around geography, not around cost per drop, on-time delivery, or fleet utilisation. Each vehicle is planned within its own territory, so the fleet is never optimised as a whole.
 
-### 2. Conditions change, territories don't.
+### 2. Transport conditions are dynamic.
 
-Demand, urgency, and road conditions shift every day, but the boundaries stay fixed. Work can't move to the vehicle best placed to do it, because the map says it belongs elsewhere.
+Demand, urgency, and road conditions shift every day, even within the same territory. There is limited scope for redistribution of work.
 
 ## How territory-based planning works
 
