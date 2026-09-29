@@ -1,17 +1,18 @@
 ---
-title: "Hidden cost of territory-based transport planning"
+title: "Hidden cost of manual transport planning"
+aliases: ["/posts/hidden-cost-of-territory-based-transport-planning/"]
 date: 2026-09-29
 categories: ["Technology"]
 ---
-Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.
+Manual transport planning most often defaults to dividing the work by territory. Most dairy routes, FMCG distribution, pharma deliveries, and B2B supplies are planned the same way: the service area is divided into territories, and one vehicle serves each. It's simple to run, and drivers work familiar areas and customers.
 
 ## The fundamental problems
 
-### 1. It doesn't optimise for the KPIs.
+### 1. Cannot optimise for the KPIs.
 
 Territories are drawn around geography, not around cost per drop, on-time delivery, or fleet utilisation. Each vehicle is planned within its own territory, so the fleet is never optimised as a whole.
 
-### 2. Transport conditions are dynamic.
+### 2. Cannot adapt to dynamic conditions
 
 Demand, urgency, and road conditions shift every day, even within the same territory. There is limited scope for redistribution of work.
 
