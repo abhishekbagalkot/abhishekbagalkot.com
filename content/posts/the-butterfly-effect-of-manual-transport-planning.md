@@ -1,5 +1,5 @@
 ---
-title: "The butterfly effect of manual transport planning"
+title: "The butterfly effects of manual transport planning on your P&L"
 date: 2026-09-29
 categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
@@ -62,4 +62,4 @@ With the same stops and the same fleet, the algorithm drops the territories. It 
 
 Because the plan is recalculated each time, it adapts to what changes: new orders, blockages, and shifting priorities.
 
-{{< figure src="img/the-butterfly-effect-of-manual-transport-planning.png" alt="The butterfly effect of manual transport planning, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
+{{< figure src="img/the-butterfly-effect-of-manual-transport-planning.png" alt="The butterfly effects of manual transport planning on your P&L, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
