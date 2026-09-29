@@ -21,6 +21,12 @@ This article explains the benefits of an algorithmic transport planning approach
 
 Traditionally, transport planning most often defaults to dividing the service areas into smaller territories first. A large service area is divided into smaller non-intersecting territories, that can be serviced by a single or small collection of vehicles. Post which vehicle assignment and route planning is done.
 
+The division of a large service area into sub territories makes the problem easier for human conceptualisation. A collection of manageably smaller graphs with limited number of continuous vertices traversed by single vehicle is easier to conceptualise and solve for. It divides a large problem into several smaller ones, that do not interact with each other.
+
+Yet, business KPIs like total fuel cost, average turnaround time, total driver hours etc. not only aggregate together, but also interact with one another in complex ways. One local optimisation, like choosing the shortest route for that day's order, may adversely affect a global aggregate KPI of uniform capacity utilisation.
+
+Manual transport planning cannot account for such higher order interactions between competing objectives or take into account that locally optimised KPIs may not aggregate well at a global business level.
+
 ## The fundamental problems
 
 ### 1. Cannot optimise for the KPIs
