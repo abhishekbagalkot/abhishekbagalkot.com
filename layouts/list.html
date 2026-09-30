@@ -1,6 +1,7 @@
 {{ define "main" }}
 <h1 class="sr-only">{{ .Title }}</h1>
 {{ partial "category-nav.html" . }}
+{{ if eq .Section "posts" }}{{ partial "tag-bar.html" . }}{{ end }}
 {{ .Content }}
 {{ partial "post-list.html" .Pages.ByDate.Reverse }}
 {{ end }}

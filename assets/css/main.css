@@ -353,3 +353,12 @@ ul.recent-list .recent-meta a { white-space: nowrap; display: inline-block; }
 @media (max-width: 600px) {
   ul.recent-list .recent-meta { display: block; margin-left: 0; margin-top: .15rem; }
 }
+
+/* ---- writings: one-line tag bar with more/less ---- */
+.tag-bar { display: flex; align-items: flex-start; gap: .8rem; margin: 0 0 1.4rem; font-size: .8rem; line-height: 1.6; }
+.tag-bar-list { flex: 1; min-width: 0; display: flex; flex-wrap: wrap; gap: 0 .8rem; }
+.tag-bar.collapsed .tag-bar-list { max-height: 1.6em; overflow: hidden; }
+.tag-bar-list a { color: var(--meta); text-decoration: none; white-space: nowrap; }
+.tag-bar-list a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
+.tag-bar-more { flex: none; background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; }
+.tag-bar-more:hover { text-decoration: underline; text-underline-offset: .2em; }

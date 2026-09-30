@@ -1,0 +1,30 @@
+{{- $tags := slice -}}
+{{- range site.Taxonomies.tags.ByCount -}}
+  {{- if .Page.Pages }}{{ $tags = $tags | append .Page }}{{ end -}}
+{{- end -}}
+{{- with $tags -}}
+<nav class="tag-bar" aria-label="Tags">
+  <div class="tag-bar-list" id="tag-bar-list">
+    {{- range . }}<a href="{{ .RelPermalink }}">#{{ replace .LinkTitle " " "-" }}</a>{{ end -}}
+  </div>
+  <button type="button" class="tag-bar-more" aria-expanded="false" aria-controls="tag-bar-list" hidden>more</button>
+</nav>
+<script>
+(function () {
+  var bar = document.currentScript.previousElementSibling;
+  var list = bar.querySelector('.tag-bar-list');
+  var btn = bar.querySelector('.tag-bar-more');
+  bar.classList.add('collapsed');
+  function check() {
+    if (bar.classList.contains('collapsed')) btn.hidden = list.scrollHeight <= list.clientHeight + 1;
+  }
+  btn.addEventListener('click', function () {
+    var open = bar.classList.toggle('collapsed') === false;
+    btn.textContent = open ? 'less' : 'more';
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  check();
+  window.addEventListener('resize', check);
+})();
+</script>
+{{- end -}}
