@@ -1,11 +1,11 @@
 ---
-title: "The butterfly effects of manual transport planning on your P&L"
+title: "The hidden limitations of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
 featured: true
 featuredOrder: 1
-image: "img/the-butterfly-effect-of-manual-transport-planning.png"
+image: "img/the-hidden-limitations-of-manual-transport-planning.png"
 ---
 Operating a vehicle fleet for delivery or collection of goods to & from various locations is a very common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.
 
@@ -64,4 +64,4 @@ With the same stops and the same fleet, the algorithm drops the territories. It 
 
 Because the plan is recalculated each time, it adapts to what changes: new orders, blockages, and shifting priorities.
 
-{{< figure src="img/the-butterfly-effect-of-manual-transport-planning.png" alt="The butterfly effects of manual transport planning on your P&L, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
+{{< figure src="img/the-hidden-limitations-of-manual-transport-planning.png" alt="The hidden limitations of manual transport planning, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
