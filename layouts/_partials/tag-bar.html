@@ -5,9 +5,9 @@
 {{- with $tags -}}
 <nav class="tag-bar" aria-label="Tags">
   <div class="tag-bar-list" id="tag-bar-list">
-    {{- range . }}<a href="{{ .RelPermalink }}">#{{ replace .LinkTitle " " "-" }}</a>{{ end -}}
+    {{- range . }}<a href="{{ .RelPermalink }}"{{ if eq .RelPermalink $.RelPermalink }} class="current" aria-current="page"{{ end }}>#{{ replace .LinkTitle " " "-" }}</a>{{ end -}}
   </div>
-  <button type="button" class="tag-bar-more" aria-expanded="false" aria-controls="tag-bar-list" hidden>more</button>
+  <button type="button" class="tag-bar-more" aria-expanded="false" aria-controls="tag-bar-list" hidden>All tags</button>
 </nav>
 <script>
 (function () {
@@ -20,7 +20,7 @@
   }
   btn.addEventListener('click', function () {
     var open = bar.classList.toggle('collapsed') === false;
-    btn.textContent = open ? 'less' : 'more';
+    btn.textContent = open ? 'less' : 'All tags';
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
   check();

@@ -360,5 +360,6 @@ ul.recent-list .recent-meta a { white-space: nowrap; display: inline-block; }
 .tag-bar.collapsed .tag-bar-list { max-height: 1.6em; overflow: hidden; }
 .tag-bar-list a { color: var(--meta); text-decoration: none; white-space: nowrap; }
 .tag-bar-list a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: .2em; }
-.tag-bar-more { flex: none; background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; }
-.tag-bar-more:hover { text-decoration: underline; text-underline-offset: .2em; }
+.tag-bar-more { flex: none; background: none; border: 1px solid var(--accent); border-radius: 4px; padding: .1rem .55rem; font: inherit; font-size: .78rem; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; }
+.tag-bar-more:hover { background: var(--accent); color: var(--bg); }
+.tag-bar-list a.current { color: var(--fg); font-weight: 600; }

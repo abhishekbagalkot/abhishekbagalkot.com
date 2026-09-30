@@ -1,6 +1,7 @@
 {{ define "main" }}
 <h1>{{ if eq .Data.Plural "tags" }}#{{ replace .Title " " "-" }}{{ else }}{{ .Title }}{{ end }}</h1>
 {{ partial "category-nav.html" . }}
+{{ partial "tag-bar.html" . }}
 {{ .Content }}
 {{ with .Pages.ByDate.Reverse }}
   {{ partial "post-list.html" . }}
