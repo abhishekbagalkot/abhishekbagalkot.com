@@ -7,7 +7,7 @@ tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
 featured: true
 featuredOrder: 2
 image: "img/why-does-nike-keep-getting-technology-right.png"
-summary: "In March 2018, I hit a weight of 90 kilos at 5 foot 8 inches tall and 36 years old. A playful game with the new weighing machine while my relatives were visiting, became a wake up call for me: I wasn't as healthy as I thought! I never thought of myself as an athlete, but I always felt I was “above average”. The reality of my overweight self, connected the dots for me on how climbing stairs had become especially harder in the recent weeks and months. A fun activity with my relatives forced me to think deeply about my weight and my health. In less than a week, I had signed up with a coach to help me lose weight."
+summary: "What business does an apparel company have in running such successful tech projects? What makes them tick?"
 ---
 {{< figure src="img/why-does-nike-keep-getting-technology-right.png" alt="Title card: Why does Nike keep getting technology right? A case study of Nike Run Club, beside a runner wearing an Apple Watch Nike+." >}}
 
