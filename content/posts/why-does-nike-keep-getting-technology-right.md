@@ -7,7 +7,7 @@ tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
 featured: true
 featuredOrder: 2
 image: "img/why-does-nike-keep-getting-technology-right.png"
-summary: "What business does an apparel company have in running such successful tech projects? What makes them tick?"
+summary: "Nike sells shoes and clothes, yet its tech projects keep succeeding. This case study starts with a running app and asks what lets an apparel company out-innovate tech companies. What makes it tick?"
 ---
 {{< figure src="img/why-does-nike-keep-getting-technology-right.png" alt="Title card: Why does Nike keep getting technology right? A case study of Nike Run Club, beside a runner wearing an Apple Watch Nike+." >}}
 
