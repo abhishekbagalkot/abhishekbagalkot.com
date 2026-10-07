@@ -363,3 +363,40 @@ ul.recent-list .recent-meta a { white-space: nowrap; display: inline-block; }
 .tag-bar-more { flex: none; background: none; border: 1px solid var(--accent); border-radius: 4px; padding: .1rem .55rem; font: inherit; font-size: .78rem; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; }
 .tag-bar-more:hover { background: var(--accent); color: var(--bg); }
 .tag-bar-list a.current { color: var(--fg); font-weight: 600; }
+
+/* ---- tables in articles ---- */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: .88rem;
+  line-height: 1.5;
+}
+article th, article td {
+  border-bottom: 1px solid var(--rule);
+  padding: .5rem .6rem;
+  text-align: left;
+  vertical-align: top;
+}
+article thead th { font-weight: 600; border-bottom-color: var(--fg); }
+article td p { margin: 0 0 .4rem; }
+article td p:last-child { margin-bottom: 0; }
+article table.initiatives td:first-child { font-weight: 600; width: 28%; }
+@media (max-width: 34rem) {
+  article table { font-size: .8rem; }
+  article th, article td { padding: .45rem .35rem; }
+}
+
+/* two images side by side */
+.figure-pair {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+.figure-pair img { min-width: 0; height: auto; }
+.figure-pair img:first-child { flex: 818 1 0; }
+.figure-pair img:last-child { flex: 312 1 0; }
+
+/* ---- optional subtitle under an article title ---- */
+.subtitle { font-size: 1.15rem; line-height: 1.35; color: var(--meta); margin: 0 0 .5rem; font-style: italic; }
