@@ -4,7 +4,7 @@ date: 2025-08-26
 categories: ["Business"]
 tags: ["careers", "work"]
 featured: true
-featuredOrder: 2
+featuredOrder: 3
 ---
 Any significant achievement requires consistent long term focussed efforts while facing and overcoming challenges and failures. It is also humanly impossible to maintain a sustained long time effort without enjoying what we do on a day to day basis. Unless we are hoping to win a lottery and solve all your problems magically, the world will pull your hopes and dreams into chaos and we will constantly be fighting disappointments and have to put in more effort than planned to save the day. There are many different types of lotteries we all hope to win. Wanting to get lucky in business, relationships or money and not having to face challenges or failures are lotteries we all are secretly hoping for.
 
