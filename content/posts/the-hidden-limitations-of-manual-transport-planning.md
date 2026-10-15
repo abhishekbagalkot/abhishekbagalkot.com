@@ -53,6 +53,8 @@ None of these show up as planning errors. They show up as overtime, fuel bills, 
 
 ## How algorithmic transport planning works
 
+Algorithmic planning, however, does not need to break down the problem into smaller human-manageable territories. Algorithms can handle a large number of deliveries, vehicle capacities, loads and routes to optimise globally. Algorithms optimise for global KPIs and provide transport, routes, stops and driver assignments, eventually producing a better plan.
+
 {{< figure src="img/algorithmic-transport-planning.svg" alt="Map of the same 12 stops and fleet planned algorithmically. Urgent stop A5 moves to Vehicle C as its first stop, Vehicle B takes the 6.2 km reroute, loads even out at 68–73%, and total distance falls from 99 km to 78.4 km." >}}
 
 With the same stops and the same fleet, the algorithm drops the territories. It considers all deliveries, vehicle capacities, travel distances, and priorities together, then recommends the routes. The result:
