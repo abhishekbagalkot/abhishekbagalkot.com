@@ -4,6 +4,7 @@
   <h1{{ if ne .Section "posts" }} class="sr-only"{{ end }}>{{ .Title }}</h1>
   {{ with .Params.subtitle }}<p class="subtitle">{{ . | markdownify }}</p>{{ end }}
   {{ if and .Date (eq .Section "posts") }}{{ partial "post-meta.html" . }}{{ end }}
+  {{ with .Params.note }}<p class="post-note">{{ . | markdownify }}</p>{{ end }}
   {{ .Content }}
   {{ if eq .Section "posts" }}<div class="article-tags">{{ partial "post-tags.html" . }}</div>{{ end }}
 </article>

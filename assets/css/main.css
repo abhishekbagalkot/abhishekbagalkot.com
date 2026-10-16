@@ -400,3 +400,13 @@ article table.initiatives td:first-child { font-weight: 600; width: 28%; }
 
 /* ---- optional subtitle under an article title ---- */
 .subtitle { font-size: 1.15rem; line-height: 1.35; color: var(--meta); margin: 0 0 .5rem; font-style: italic; }
+
+/* ---- optional note under the date line (e.g. where a piece was delivered) ---- */
+.post-note { font-size: .85rem; line-height: 1.5; font-style: italic; color: var(--meta); margin: 1rem 0 0; }
+.post-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: .22em;
+  text-decoration-thickness: 1px;
+}
+.post-note a:hover { color: var(--accent); }
