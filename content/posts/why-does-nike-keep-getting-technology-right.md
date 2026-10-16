@@ -1,7 +1,7 @@
 ---
 title: "Why does Nike keep getting technology right?"
 subtitle: "A case study of Nike Run Club"
-note: "Delivered at the [Chief Technology Officer (CTO) Programme](https://isbexecedu.isb.edu/chief-technology-officer-programme) at [ISB](https://www.isb.edu/) in June and November 2025."
+note: "Delivered at the [Chief Technology Officer (CTO) Programme](https://isbexecedu.isb.edu/chief-technology-officer-programme) in June and November 2025 at [ISB](https://www.isb.edu/)."
 date: 2025-06-21
 categories: ["Business"]
 tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
