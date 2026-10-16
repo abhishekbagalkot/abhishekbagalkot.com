@@ -1,7 +1,7 @@
 ---
 title: "Why does Nike keep getting technology right?"
 subtitle: "A case study of Nike Run Club"
-date: 2026-10-07
+date: 2025-06-21
 categories: ["Business"]
 tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
 featured: true
