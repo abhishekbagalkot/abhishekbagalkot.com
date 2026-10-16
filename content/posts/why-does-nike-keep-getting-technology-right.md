@@ -1,7 +1,6 @@
 ---
 title: "Why does Nike keep getting technology right?"
 subtitle: "A case study of Nike Run Club"
-note: "Delivered at the [Chief Technology Officer (CTO) Programme](https://isbexecedu.isb.edu/chief-technology-officer-programme) in June and November 2025 at [ISB](https://www.isb.edu/)."
 date: 2025-06-21
 categories: ["Business"]
 tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
@@ -11,6 +10,8 @@ image: "img/why-does-nike-keep-getting-technology-right.png"
 summary: "Nike sells shoes and clothes, yet its tech projects keep succeeding. This case study starts with a running app and asks what lets an apparel company out-innovate tech companies. What makes it tick?"
 ---
 {{< figure src="img/why-does-nike-keep-getting-technology-right.png" alt="Title card: Why does Nike keep getting technology right? A case study of Nike Run Club, beside a runner wearing an Apple Watch Nike+." >}}
+
+<p class="post-note">Delivered at the <a href="https://isbexecedu.isb.edu/chief-technology-officer-programme">Chief Technology Officer (CTO) Programme</a> in June and November 2025 at <a href="https://www.isb.edu/">ISB</a>.</p>
 
 In March 2018, I hit a weight of 90 kilos at 5 foot 8 inches tall and 36 years old. A playful game with the new weighing machine while my relatives were visiting, became a wake up call for me: I wasn't as healthy as I thought! I never thought of myself as an athlete, but I always felt I was “above average”. The reality of my overweight self, connected the dots for me on how climbing stairs had become especially harder in the recent weeks and months. A fun activity with my relatives forced me to think deeply about my weight and my health. In less than a week, I had signed up with a coach to help me lose weight.
 
