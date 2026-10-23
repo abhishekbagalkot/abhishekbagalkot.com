@@ -8,21 +8,25 @@ summary: "Abhishek Bagalkot — computer vision and route optimisation for enter
 I work at the intersection of technology, operations and business — mostly on
 the unglamorous middle, where a working model meets a working day. I am
 passionate about technology automation, customer service and social change.
+My work focuses mostly on the agriculture, food and energy industries.
 
-Most of what I do falls into two buckets. The first is computer vision for
-enterprise clients: cameras pointed at industrial processes, and the much harder
-question of what anyone should do with what they see. The second is route and
-transport optimisation — I run [Tyson](https://runtyson.com), a logistics
-product, and write a series on dynamic route optimisation aimed at the people
-who carry the P&L rather than the people who build the models.
+**Optimisation.** I run [Tyson](https://runtyson.com), a transport optimisation
+solution for agriculture and F&B. I have written a primer on route optimisation
+for P&L owners
+[here]({{< relref "posts/the-hidden-limitations-of-manual-transport-planning.md" >}}).
 
-The thread between them is that neither is really a technology problem. The
-technology tends to work. What decides the outcome is whether an organisation
-can absorb what the technology tells it — whether a dispatcher trusts the plan,
-whether a plant manager acts on the alert, whether anyone changed the process
-the software was supposed to improve. That gap is the thing I find interesting,
-and it's most of what I'll write about here.
+**Computer vision.** I apply computer vision technologies to acquire operational
+data and support data-driven decision making.
 
-I'm based in Bangalore and work through Akrity. I'm also building something
-early around research and executive education, which I'll say more about when
-there's more to say.
+**Teaching.** I am affiliated with [Emeritus](https://emeritus.org) and
+[ISB](https://www.isb.edu/), where I serve as a guest speaker for the [Chief
+Technology Officer (CTO)](https://isbexecedu.isb.edu/chief-technology-officer-programme)
+and PGP programmes. I am passionate about executive education, mostly helping
+COOs demystify tech.
+
+**Writing.** [Essays]({{< relref "posts" >}}) on business, technology and
+society, mostly on what happens when an idea meets a working day, alongside the
+occasional story from growing up. The Nike case study is written up
+[here]({{< relref "posts/why-does-nike-keep-getting-technology-right.md" >}}).
+
+I'm based in Bangalore and work through [Akrity](https://akrity.com).
