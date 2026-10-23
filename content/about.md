@@ -5,8 +5,9 @@ summary: "Abhishek Bagalkot — computer vision and route optimisation for enter
 
 {{< portrait >}}
 
-I work at the intersection of technology, operations and business — mostly on
-the unglamorous middle, where a working model meets a working day.
+I am passionate about technology automation, customer service and social
+change. I work at the intersection of technology, operations and business —
+mostly on the unglamorous middle, where a working model meets a working day.
 
 Most of what I do falls into two buckets. The first is computer vision for
 enterprise clients: cameras pointed at industrial processes, and the much harder
