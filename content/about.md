@@ -24,9 +24,8 @@ Technology Officer (CTO)](https://isbexecedu.isb.edu/chief-technology-officer-pr
 and PGP programmes. I am passionate about executive education, mostly helping
 COOs demystify tech.
 
-**Writing.** [Essays]({{< relref "posts" >}}) on business, technology and
-society, mostly on what happens when an idea meets a working day, alongside the
-occasional story from growing up. The Nike case study is written up
+**Writing.** My essays examine business, technology and society, particularly
+the gap between strategy and execution, alongside occasional personal pieces. The Nike case study is written up
 [here]({{< relref "posts/why-does-nike-keep-getting-technology-right.md" >}}).
 
 I'm based in Bangalore and work through [Akrity](https://akrity.com).
