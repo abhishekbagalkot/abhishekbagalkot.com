@@ -3,6 +3,8 @@ title: "Knowledge without language barriers"
 date: 2026-09-23
 categories: ["Technology"]
 tags: ["languages", "India", "AI"]
+featured: true
+featuredOrder: 2
 image: "img/knowledge-without-language-barriers.png"
 ---
 India's language diversity creates barriers for its vast citizenry to understand one another. A skilful farmer in Rajasthan cannot share insights with a farmer in Karnataka. They simply may not have a common language.

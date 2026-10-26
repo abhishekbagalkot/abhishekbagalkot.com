@@ -3,8 +3,6 @@ title: "The hidden limitations of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
-featured: true
-featuredOrder: 1
 image: "img/the-hidden-limitations-of-manual-transport-planning.png"
 ---
 Operating a vehicle fleet for delivery or collection of goods to & from various locations is a very common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.

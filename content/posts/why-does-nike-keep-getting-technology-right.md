@@ -5,7 +5,7 @@ date: 2025-06-21
 categories: ["Business"]
 tags: ["case study", "Nike", "digital strategy", "innovation", "customers"]
 featured: true
-featuredOrder: 2
+featuredOrder: 3
 image: "img/why-does-nike-keep-getting-technology-right.png"
 summary: "Nike sells shoes and clothes, yet its tech projects keep succeeding. This case study starts with a running app and asks what lets an apparel company out-innovate tech companies. What makes it tick?"
 ---
