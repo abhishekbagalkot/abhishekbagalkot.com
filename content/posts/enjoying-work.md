@@ -1,5 +1,5 @@
 ---
-title: "Enjoying work"
+title: "Enjoy work or get things done?"
 date: 2025-08-26
 categories: ["Business"]
 tags: ["careers", "work"]
