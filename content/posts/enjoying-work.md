@@ -1,5 +1,5 @@
 ---
-title: "Enjoy work or get things done?"
+title: "To enjoy work or get things done?"
 date: 2025-08-26
 categories: ["Business"]
 tags: ["careers", "work"]
