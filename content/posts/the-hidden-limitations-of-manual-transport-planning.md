@@ -3,7 +3,7 @@ title: "The hidden limitations of manual transport planning"
 date: 2026-09-29
 categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
-image: "img/the-hidden-limitations-of-manual-transport-planning.png"
+image: "img/manual-vs-algorithmic-routing-preview.png"
 ---
 {{< figure src="img/manual-vs-algorithmic-routing.svg" alt="Manual routing compared with algorithmic routing. Manual routing: cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic routing: less driving, adapts to what changes, the urgent order goes first, better routes even unfamiliar ones, balanced loads. Below, the same stops and vehicles: tangled, overlapping manual routes beside tidy, separate algorithmic routes." >}}
 
