@@ -5,6 +5,8 @@ categories: ["Technology"]
 tags: ["logistics", "transport planning", "route optimisation", "operations"]
 image: "img/the-hidden-limitations-of-manual-transport-planning.png"
 ---
+{{< figure src="img/manual-vs-algorithmic-routing.svg" alt="Manual routing compared with algorithmic routing. Manual routing: cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic routing: less driving, adapts to what changes, the urgent order goes first, better routes even unfamiliar ones, balanced loads. Below, the same stops and vehicles: tangled, overlapping manual routes beside tidy, separate algorithmic routes." >}}
+
 Operating a vehicle fleet for delivery or collection of goods to & from various locations is a very common industry use case. Every day, the dairy industry delivers fresh milk from millions of cattle farmers to billions of consumers on time. Large FMCGs refill their inventory across millions of retail stores, e-commerce delivers customer orders and municipal bodies evacuate garbage. Companies depend on the efficient functioning of vehicle fleets to deliver high quality, fresh products on time and keep customer promises.
 
 These fleets are purchased or engaged in advance. Drivers assemble at depots at the beginning of a shift. Routes are then assigned to drivers to complete multiple finite sets of tasks, the status of which is often tracked digitally.
@@ -63,5 +65,3 @@ With the same stops and the same fleet, the algorithm drops the territories. It 
 - **Less driving.** Total distance falls from 99 km to 78.4 km, about 21% less. The longest working day drops from 7.1 to 5.4 hours.
 
 Because the plan is recalculated each time, it adapts to what changes: new orders, blockages, and shifting priorities.
-
-{{< figure src="img/the-hidden-limitations-of-manual-transport-planning.png" alt="The hidden limitations of manual transport planning, compared. Manual, by territory: simple to run; drivers work familiar areas and customers; but cannot optimise for the KPIs, cannot adapt to dynamic conditions, urgent orders wait, detours absorb the blockage, capacity sits idle. Algorithmic: the urgent order goes first; better routes, even unfamiliar ones; balanced loads; less driving; adapts to what changes." >}}
